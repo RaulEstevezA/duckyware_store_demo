@@ -138,10 +138,135 @@
     color: #333;
 }
 
-/* small screens: the original layout assumed a desktop width */
-@media (max-width: 768px) {
+/* ------------------------------------------------------------------------
+   Phones and tablets. The original styles assumed a desktop with a mouse:
+   menus only opened on hover and several pages had fixed desktop sizes.
+   ------------------------------------------------------------------------ */
+
+/* long spec names ("Motherboard_compatibility") must not overlap the value */
+.field-column strong {
+    overflow-wrap: anywhere;
+}
+
+/* menu toggles: only on touch screens or narrow windows */
+.menu-toggle {
+    display: none;
+}
+
+@media (hover: none), (max-width: 768px) {
+    .menu-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        padding: 0;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .menu-toggle::after {
+        content: "";
+        border: solid #000;
+        border-width: 0 2px 2px 0;
+        padding: 3px;
+        transform: rotate(45deg);
+        margin-top: -4px;
+        transition: transform 0.2s;
+    }
+
+    .open > .menu-toggle::after {
+        transform: rotate(-135deg);
+        margin-top: 4px;
+    }
+
+    /* menus open with the toggle, not on hover (a tap leaves :hover stuck) */
+    .nav-item:hover > .submenu,
+    .submenu > li:hover > .submenu,
+    .user-icon-container:hover .user-dropdown {
+        display: none;
+    }
+
+    nav {
+        position: relative;
+    }
+
     .nav-menu {
         flex-wrap: wrap;
+    }
+
+    .nav-item {
+        position: static;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-item > a {
+        padding-right: 2px;
+    }
+
+    /* the open category menu is a full-width panel with the whole tree */
+    .nav-item.open > .submenu {
+        display: block;
+        left: 0;
+        right: 0;
+        top: 100%;
+        padding: 6px 0;
+    }
+
+    .nav-item.open .submenu .submenu {
+        display: block;
+        position: static;
+        box-shadow: none;
+        background: none;
+        min-width: 0;
+        padding-left: 16px;
+    }
+
+    .submenu a {
+        padding: 9px 16px;
+        white-space: normal;
+    }
+
+    .user-icon-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .user-icon-container .menu-toggle {
+        width: 28px;
+    }
+
+    .user-icon-container.open .user-dropdown {
+        display: block;
+        right: 0;
+        left: auto;
+        z-index: 200;
+    }
+
+    .user-dropdown a {
+        padding: 12px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* header */
+    .demo-banner {
+        font-size: 0.75rem;
+        padding: 5px 12px;
+    }
+
+    .top-bar {
+        padding: 10px 12px;
+    }
+
+    .title {
+        height: 90px;
+    }
+
+    .site-title {
+        font-size: 40px;
     }
 
     .home-title,
@@ -151,14 +276,215 @@
         font-size: 1.8rem;
         white-space: normal;
         height: auto;
-        padding: 30px 0 20px;
-    }
-
-    .site-title {
-        font-size: 44px;
+        padding: 26px 0 16px;
     }
 
     .empty-category {
         margin-left: 1rem;
+    }
+
+    /* home */
+    .title-offert {
+        font-size: 1.05rem;
+        margin-top: 8px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .price-text,
+    .price-text-carrusel {
+        font-size: 1rem;
+    }
+
+    .home-title + .container .row > .col {
+        padding: 0 6px;
+    }
+
+    .home-title + .container .row img {
+        max-height: 130px !important;
+    }
+
+    .carousel-item .text-container {
+        padding: 8px 40px 16px;
+    }
+
+    .carousel-item img {
+        max-height: 180px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(1) grayscale(1);
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 12%;
+    }
+
+    /* product page */
+    .container.mt-4.mb-4 h1 {
+        font-size: 1.2rem;
+        margin-top: 16px;
+    }
+
+    .product-view-carousel-button {
+        font-size: 20px;
+        padding: 0 4px;
+    }
+
+    .detail-item {
+        border-right: none !important;
+    }
+
+    .field-column {
+        background-color: #f7f7f7;
+        padding: 6px 10px;
+    }
+
+    .value-column {
+        padding: 6px 10px 12px;
+        overflow-wrap: anywhere;
+    }
+
+    /* cart and checkout: one compact card per line */
+    .cart-header {
+        display: none;
+    }
+
+    .cart-item .row {
+        display: grid;
+        grid-template-columns: minmax(70px, 1fr) 1fr 1fr auto;
+        align-items: end;
+        gap: 6px 10px;
+        margin: 0;
+        padding: 12px 0;
+        text-align: left;
+    }
+
+    .cart-item .row > div {
+        width: auto;
+        padding: 0;
+    }
+
+    .cart-item .row > div:empty {
+        display: none;
+    }
+
+    .cart-item .row > div:first-child {
+        grid-column: 1 / -1;
+        font-weight: 600;
+    }
+
+    .cart-item .row > div:nth-child(2)::before,
+    .cart-item .row > div:nth-child(4)::before,
+    .cart-item .row > div:nth-child(5)::before {
+        display: block;
+        font-size: 0.75rem;
+        font-weight: normal;
+        color: #6c757d;
+    }
+
+    .cart-item .row > div:nth-child(2)::before {
+        content: "Quantity";
+    }
+
+    .cart-item .row > div:nth-child(4)::before {
+        content: "Price";
+    }
+
+    .cart-item .row > div:nth-child(5)::before {
+        content: "Subtotal";
+    }
+
+    .cart-price,
+    .cart-total {
+        margin-top: 0;
+    }
+
+    .cart-item .quantity-input {
+        width: 70px;
+    }
+
+    .cart-item .btn {
+        width: auto;
+    }
+
+    .cart-footer .row,
+    .cart-actions .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .cart-footer .row > div,
+    .cart-actions .row > div {
+        width: auto;
+        padding: 0;
+        text-align: left;
+    }
+
+    .cart-footer .row > div:empty,
+    .cart-actions .row > div:empty {
+        display: none;
+    }
+
+    .cart-actions .row > div {
+        flex: 1;
+    }
+
+    /* login and register forms touch the screen edges */
+    main > .d-flex {
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    /* two product cards per row instead of one huge card */
+    .row > .col-lg-3.col-md-4.col-sm-6 {
+        width: 50%;
+        padding: 0 6px;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: 0.95rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .card-text,
+    .price-text {
+        font-size: 1rem;
+    }
+
+    .price-container {
+        flex-wrap: wrap;
+        gap: 2px 8px;
+    }
+
+    .price-container p {
+        margin-bottom: 0;
+    }
+
+    /* general.css shrinks every button to 0.75rem on phones: keep them tappable */
+    .btn {
+        font-size: 0.95rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .btn-sm {
+        font-size: 0.875rem;
+        padding: 0.4rem 0.6rem;
     }
 }

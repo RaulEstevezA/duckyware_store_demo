@@ -23,6 +23,12 @@ function categoryMenu(parentId, depth) {
         </ul>`;
 }
 
+// The original menus only open on hover; touch screens get a toggle button
+// next to each entry (hidden on desktop, see demo.css)
+function menuToggle(label) {
+    return html`<button type="button" class="menu-toggle" aria-expanded="false" aria-label="${label}"></button>`;
+}
+
 function navbar() {
     const roots = backend.categories().filter(c => !c.parent);
     return html`
@@ -31,6 +37,7 @@ function navbar() {
                 ${roots.map(c => html`
                     <li class="nav-item">
                         <a href="${url.category(c.name)}">${c.name}</a>
+                        ${backend.childrenOf(c.id).length ? menuToggle(`Show subcategories of ${c.name}`) : ''}
                         ${categoryMenu(c.id, 2)}
                     </li>`)}
             </ul>
@@ -51,6 +58,7 @@ function userArea(user) {
                 <img src="static/store/images/user-icon.svg" alt="Profile">
                 <span class="user-name">${user.username}</span>
             </a>
+            ${menuToggle('Account menu')}
             <div class="user-dropdown">
                 <a href="${url.profile()}">Profile</a>
                 <a href="${url.wishlist()}">Wishlist</a>
@@ -152,7 +160,40 @@ export function layout(content) {
         ${demoModal()}`;
 }
 
+let outsideTapRegistered = false;
+
+function closeMenus(except) {
+    document.querySelectorAll('.nav-item.open, .user-icon-container.open').forEach(menu => {
+        if (menu === except) return;
+        menu.classList.remove('open');
+        menu.querySelector('.menu-toggle')?.setAttribute('aria-expanded', 'false');
+    });
+}
+
+function mountMenuToggles() {
+    document.querySelectorAll('.menu-toggle').forEach(toggle => {
+        toggle.addEventListener('click', event => {
+            event.stopPropagation();
+            const menu = toggle.parentElement;
+            closeMenus(menu);
+            const open = menu.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', String(open));
+        });
+    });
+    if (!outsideTapRegistered) {
+        outsideTapRegistered = true;
+        document.addEventListener('click', event => {
+            if (!event.target.closest('.nav-item, .user-icon-container')) closeMenus();
+        });
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape') closeMenus();
+        });
+    }
+}
+
 export function mountLayout(navigate) {
+    mountMenuToggles();
+
     const searchForm = document.getElementById('searchForm');
     searchForm.addEventListener('submit', event => {
         event.preventDefault();
