@@ -170,7 +170,7 @@ The project uses a modular architecture where product categories are represented
 
 The repository includes a SQLite database (`db.sqlite3`) with sample data. At the time of review, the database contains users, product categories, product images, orders, wishlists, shipping addresses, and sample products.
 
-The catalogue has 49 products and every category has products: CPUs, computer cases, power supplies, case fans, RAM, motherboards, graphics cards, CPU air and liquid coolers, sound cards, hard drives, SSDs, monitors, keyboards, headsets, mice and webcams. Specifications, images and prices are taken from Newegg product pages (prices as of October 2026); stock, units sold and discounts are sample values. Product images are stored in the `media/` directory, while project screenshots are stored in `img/`.
+The catalogue has 83 products (3 to 6 per category): CPUs, computer cases, power supplies, case fans, RAM, motherboards, graphics cards, CPU air and liquid coolers, sound cards, hard drives, SSDs, monitors, keyboards, headsets, mice and webcams. Specifications, images and prices are taken from Newegg product pages (prices as of October 2026); stock, units sold and discounts are sample values. Product images are stored in the `media/` directory, while project screenshots are stored in `img/`.
 
 ## Technologies Used
 

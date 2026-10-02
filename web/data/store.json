@@ -622,6 +622,347 @@
    ]
   },
   {
+   "type": "Motherboard",
+   "id": 4,
+   "category": "Motherboards",
+   "category_id": 4,
+   "title": "ASUS TUF GAMING B650E-PLUS WIFI",
+   "name": "ASUS TUF GAMING B650E-PLUS WIFI AMD B650 ATX motherboard, 12+2+1 80A DrMOS power stages, DDR5, PCIe 5.0 Ready, 3x M.2, Wi-Fi 6E, 2.5Gb LAN, DisplayPort, HDMI, USB Type-C, BIOS FlashBack, Aura Sync",
+   "price": "188.96",
+   "discount": "25.00",
+   "discounted_units": 35,
+   "stock_quantity": 144,
+   "units_sold": 246,
+   "images": [
+    "product_images/13-119-739-11.webp",
+    "product_images/13-119-739-12.webp",
+    "product_images/13-119-739-13.webp",
+    "product_images/13-119-739-14.webp",
+    "product_images/13-119-739-15.webp",
+    "product_images/13-119-739-16.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "ASUS TUF GAMING B650E-PLUS WIFI AMD B650 ATX motherboard, 12+2+1 80A DrMOS power stages, DDR5, PCIe 5.0 Ready, 3x M.2, Wi-Fi 6E, 2.5Gb LAN, DisplayPort, HDMI, USB Type-C, BIOS FlashBack, Aura Sync"
+    ],
+    [
+     "title",
+     "ASUS TUF GAMING B650E-PLUS WIFI"
+    ],
+    [
+     "description",
+     "Ready for Advanced AI PC: Designed for the future of AI computing, with the power and connectivity needed for demanding AI application\r\nAMD AM5 Socket: Ready for AMD Socket AM5 for AMD Ryzen 9000 & 8000 & 7000 Series Desktop Processors\r\nEnhanced Power Solution: 12+2+1 80A DrMOS power stages, 8-layer PCB, 8+8 pin ProCool power connectors, alloy chokes and durable capacitors for stable power delivery\r\nLatest M.2 Support: One onboard PCIe 5.0 M.2 slot and two PCIe 4.0 M.2 slots, equipped with all M.2 heatsinks\r\nUltrafast Connectivity: Wi-Fi 6E, PCIe 5.0 x16 slot, Realtek 2.5Gb Ethernet, rear USB 20Gbps Type-C port, front USB 10Gbps Type-C connector, Thunderbolt (USB4) header support\r\nComprehensive Cooling: Enlarged VRM heatsink, three M.2 heatsinks, PCH heatsink, hybrid fan headers and Fan Xpert 4\r\nDIY Friendly Design: PCIe Slot Q-Release, new M.2 Q-Latch, Q-Antenna, Q-Dashboard, Q-LED, BIOS FlashBack and Pre-mounted I/O shield"
+    ],
+    [
+     "brand",
+     "ASUS"
+    ],
+    [
+     "model",
+     "TUF GAMING B650E-PLUS WIFI"
+    ],
+    [
+     "image",
+     ""
+    ],
+    [
+     "cpu_socket_type",
+     "AM5"
+    ],
+    [
+     "cpu_type",
+     "Ryzen 7000 Series / Ryzen 8000 Series / Ryzen 9000 Series"
+    ],
+    [
+     "chipset",
+     "AMD B650"
+    ],
+    [
+     "number_of_memory_slots",
+     "4x288pin (DDR5)"
+    ],
+    [
+     "memory_standard",
+     "Supports up to DDR5 8000+MT/s (OC)"
+    ],
+    [
+     "maximum_memory_supported",
+     "256GB"
+    ],
+    [
+     "channel_supported",
+     "Dual Channel"
+    ],
+    [
+     "ecc_supported",
+     "Yes"
+    ],
+    [
+     "buffer_supported",
+     "Un-buffered"
+    ],
+    [
+     "memory_feature",
+     "Supports up to 8000+MT/s (OC) with Ryzen 9000 & 8000 & 7000 Series Processors, ECC and Non-ECC Un-b…"
+    ],
+    [
+     "pci_express_5_x16",
+     "AMD Ryzen 9000 & 7000 Series Desktop Processors\n1 x PCIe 5.0 x16 slot (supports x16 mode) \n\nAMD Ryzen 8000 Series Desktop Processors\n1 x PCIe 4.0 x16 slot (supports x8/x4 mode)"
+    ],
+    [
+     "pci_express_x1",
+     "2 x PCIe 4.0 x1 slots"
+    ],
+    [
+     "sata_6gb_s",
+     "4 x SATA 6Gb/s"
+    ],
+    [
+     "m2_slot",
+     "AMD Ryzen 9000 & 7000 Series Desktop Processors\nM.2_1 slot (Key M), type 2280 (supports PCIe 5.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4 mode)\n\nAMD Ryzen 8000 Series Desktop Processors\nM.2_1 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)\nM.2_2 slot (Key M), type 2242/2260/2280/22110 (supports PCIe 4.0 x4/x2 mode)**\n\nAMD B650 Chipset\nM.2_3 slot (Key M), type 2280 (supports PCIe 4.0 x4 mode)***\n** The PCIEX16(G4) shares bandwidth with M.2_3. The PCIEX16(G4) will be disabled when M.2_3 runs."
+    ],
+    [
+     "sata_raid",
+     "Ryzen 9000 series processors: RAID 0/1/5/10\nRyzen 8000 series processors: RAID 0/1\nRyzen 7000 series processors: RAID 0/1/10"
+    ],
+    [
+     "additional_raid_controller",
+     "n/a"
+    ],
+    [
+     "audio_chipset",
+     "n/a"
+    ],
+    [
+     "audio_channels",
+     "Realtek ALC1220P 7.1 Surround Sound High Definition Audio CODEC\n- Impedance sense for front and rea…"
+    ],
+    [
+     "lan_chipset",
+     "n/a"
+    ],
+    [
+     "max_lan_speed",
+     "2.5Gbps"
+    ],
+    [
+     "wireless_lan",
+     "Wi-Fi 802.11 ax"
+    ],
+    [
+     "bluetooth",
+     "Bluetooth 5.3"
+    ],
+    [
+     "back_io_ports",
+     "1 x Antenna Bracket / 1 x DisplayPort / 1 x Flash BIOS Button / 1 x HDMI / 1 x LAN (RJ45) / 1 x USB 3.2 Gen 2x2 Type-C / 3 x USB 3.2 Gen 2 Type-A / 5 x Audio Jacks / 6 x USB 2.0/1.1"
+    ],
+    [
+     "onboard_usb",
+     "n/a"
+    ],
+    [
+     "other_connectors",
+     "Fan and Cooling Related \n1 x 4-pin CPU Fan header\n1 x 4-pin CPU OPT Fan header\n1 x 4-pin AIO Pump header\n4 x 4-pin Chassis Fan headers\n\nMiscellaneous\n3 x Addressable Gen 2 headers\n1 x Clear CMOS header\n1 x Chassis Intrusion header\n1 x COM Port header\n1 x Front Panel Audio header (F_AUDIO)\n1 x 10-1 pin Front System Panel header\n1 x Thunderbolt (USB4) header"
+    ],
+    [
+     "form_factor",
+     "ATX"
+    ],
+    [
+     "led_lighting",
+     "n/a"
+    ],
+    [
+     "dimensions",
+     "12.0\" x 9.6\""
+    ],
+    [
+     "power_pin",
+     "1 x 24-pin Main Power connector\n2 x 8-pin +12V CPU Power connectors"
+    ],
+    [
+     "windows_compatibility",
+     "Windows 11 Supported"
+    ],
+    [
+     "date_first_available",
+     "2025-06-06"
+    ]
+   ]
+  },
+  {
+   "type": "Motherboard",
+   "id": 5,
+   "category": "Motherboards",
+   "category_id": 4,
+   "title": "MSI MAG B760M MORTAR WIFI II",
+   "name": "MSI MAG B760M MORTAR WIFI II LGA 1700 Intel B760 SATA 6Gb/s Micro ATX DDR5 PCI-E x16 slot  2.5Gbps LAN 3x M.2  Wi-Fi 6E Motherboard",
+   "price": "199.03",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 178,
+   "units_sold": 138,
+   "images": [
+    "product_images/13-144-638-05.webp",
+    "product_images/13-144-638-04.webp",
+    "product_images/13-144-638-02.webp",
+    "product_images/13-144-638-03.webp",
+    "product_images/13-144-638-01.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "MSI MAG B760M MORTAR WIFI II LGA 1700 Intel B760 SATA 6Gb/s Micro ATX DDR5 PCI-E x16 slot  2.5Gbps LAN 3x M.2  Wi-Fi 6E Motherboard"
+    ],
+    [
+     "title",
+     "MSI MAG B760M MORTAR WIFI II"
+    ],
+    [
+     "description",
+     "Supports Intel Core 14th, 13th and 12th Gen Processors, Intel Pentium Gold, Celeron Processor and Intel Processor 300(T) for LGA 1700 socket\r\nSupports DDR5 Memory, up to 7800+(OC) MHz\r\nEnhanced Power Design: 12+1+1 Duet Rail Power System, dual 8-pin CPU power connectors, Core Boost, Memory Boost\r\nLightning Fast Game experience: PCIe 5.0 slot, Lightning Gen 4 x4 M.2, USB 3.2 Gen 2 x2\r\nPremium Thermal Solution: Extended Heatsink Design and M.2 Shield Frozr are built for high performance system and non-stop works\r\nAudio Boost: Reward your ears with studio grade sound\r\nHigh Quality PCB: 6-layer PCB made by 2oz thickened copper and server grade level material\r\n* BIOS update may be required when used with some 14th generation Intel Core processors, visit MSI support website for more information"
+    ],
+    [
+     "brand",
+     "MSI"
+    ],
+    [
+     "model",
+     "MAG B760M MORTAR WIFI II"
+    ],
+    [
+     "image",
+     ""
+    ],
+    [
+     "cpu_socket_type",
+     "LGA 1700"
+    ],
+    [
+     "cpu_type",
+     "Celeron / Intel Core 12th Gen (LGA 1700) / Intel Core 13th Gen (LGA 1700) / Pentium Gold"
+    ],
+    [
+     "chipset",
+     "Intel B760"
+    ],
+    [
+     "number_of_memory_slots",
+     "4x288pin (DDR5)"
+    ],
+    [
+     "memory_standard",
+     "DDR5 7800+(OC)/ 7600(OC)/ 7400(OC)/ 7200(OC)/ 7000(OC)/ 6800(OC)/ 6600(OC)/ 6400(OC)/ 6200(OC)/ 6000(OC)/ 5800(OC)/ 5600(JEDEC)/ 5400(JEDEC)/ 5200(JEDEC)/ 5000(JEDEC)/ 4800(JEDEC)"
+    ],
+    [
+     "maximum_memory_supported",
+     "192GB"
+    ],
+    [
+     "channel_supported",
+     "Dual Channel"
+    ],
+    [
+     "ecc_supported",
+     "n/a"
+    ],
+    [
+     "buffer_supported",
+     "n/a"
+    ],
+    [
+     "memory_feature",
+     "Max. overclocking frequency:\n- 1DPC 1R Max speed up to 7800+ MHz\n- 1DPC 2R Max speed up to 6600+ MH…"
+    ],
+    [
+     "pci_express_5_x16",
+     "PCI_E1 Gen PCIe 5.0 supports up to x16 (From CPU)"
+    ],
+    [
+     "pci_express_x1",
+     "n/a"
+    ],
+    [
+     "sata_6gb_s",
+     "4 x SATA 6Gb/s"
+    ],
+    [
+     "m2_slot",
+     "M.2_1 Source (From CPU) supports up to PCIe 4.0 x4 , supports 2280/2260/2242 devices\nM.2_2 Source (From Chipset) supports up to PCIe 4.0 x4 , supports 2280/2260 devices\nM.2_3 Source (From Chipset) supports up to PCIe 4.0 x4 / SATA mode, supports 2280 devices"
+    ],
+    [
+     "sata_raid",
+     "Supports RAID 0, RAID 1, RAID 5 and RAID 10 for SATA storage devices"
+    ],
+    [
+     "additional_raid_controller",
+     "n/a"
+    ],
+    [
+     "audio_chipset",
+     "Realtek ALC897"
+    ],
+    [
+     "audio_channels",
+     "7.1-Channel High Definition Audio"
+    ],
+    [
+     "lan_chipset",
+     "n/a"
+    ],
+    [
+     "max_lan_speed",
+     "2.5Gbps"
+    ],
+    [
+     "wireless_lan",
+     "Intel Wi-Fi 6E\nThe Wireless module is pre-installed in the M.2 (Key-E) slot\nSupports MU-MIMO TX/RX, 2.4GHz / 5GHz / 6GHz* (160MHz) up to 2.4Gbps\nSupports 802.11 a/ b/ g/ n/ ac/ ax"
+    ],
+    [
+     "bluetooth",
+     "Bluetooth 5.3\n** Bluetooth 5.3 will be ready in Windows 10 build 21H1 and Windows 11."
+    ],
+    [
+     "back_io_ports",
+     "1 x DisplayPort 1.4\n3 x USB 3.2 Gen 2 10Gbps Type-A\n1 x 2.5G LAN Port\n2 x Wi-Fi / Bluetooth\n6 x HD Audio Connectors\n4 x USB 2.0\n1 x HDMI 2.1 Port\n1 x USB 3.2 Gen 2x2 20Gbps Type-C"
+    ],
+    [
+     "onboard_usb",
+     "4 x USB 2.0 ports\n2 x USB 3.2 Gen1 Type A ports\n1 x USB 3.2 Gen2 Type C ports"
+    ],
+    [
+     "other_connectors",
+     "1 x CPU Fan\n1 x Pump Fan\n4 x System Fan\n2 x Front Panel (JFP)\n1 x Chassis Intrusion (JCI)\n1 x Front Audio (JAUD)\n1 x Tuning Controller connector(JDASH)\n2 x Addressable V2 RGB LED connector (JARGB_V2)\n1 x RGB LED connector(JRGB)\n1 x TPM pin header(Support TPM 2.0)\n1 x USB4 card connector (JTBT_U4_1, supports RTD3)"
+    ],
+    [
+     "form_factor",
+     "Micro ATX"
+    ],
+    [
+     "led_lighting",
+     "4 x EZ Debug LED"
+    ],
+    [
+     "dimensions",
+     "9.6\" x 9.6\""
+    ],
+    [
+     "power_pin",
+     "1 x Power Connector(ATX_PWR)\n2 x Power Connector(CPU_PWR)"
+    ],
+    [
+     "windows_compatibility",
+     "Supported"
+    ],
+    [
+     "date_first_available",
+     "2025-12-16"
+    ]
+   ]
+  },
+  {
    "type": "CPU",
    "id": 1,
    "category": "CPUs",
@@ -1178,6 +1519,287 @@
    ]
   },
   {
+   "type": "CPU",
+   "id": 5,
+   "category": "CPUs",
+   "category_id": 5,
+   "title": "AMD Ryzen 7 7800X3D",
+   "name": "Ryzen 7 7800X3D",
+   "price": "416.00",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 141,
+   "units_sold": 47,
+   "images": [
+    "product_images/19-113-793-03.webp",
+    "product_images/19-113-793-02.webp",
+    "product_images/19-113-793-04.webp",
+    "product_images/19-113-793-01.webp"
+   ],
+   "details": [
+    [
+     "title",
+     "AMD Ryzen 7 7800X3D"
+    ],
+    [
+     "description",
+     "Zen 4 - TSMC 5nm FinFET 120W \r\n96MB L3 Cache \r\n8MB L2 Cache \r\nAMD Radeon Graphics"
+    ],
+    [
+     "brand",
+     "AMD"
+    ],
+    [
+     "processor_type",
+     "Desktop"
+    ],
+    [
+     "series",
+     "Ryzen 7 7000 Series"
+    ],
+    [
+     "name",
+     "Ryzen 7 7800X3D"
+    ],
+    [
+     "model",
+     "100-100000910WOF"
+    ],
+    [
+     "cpu_socket_type",
+     "Socket AM5"
+    ],
+    [
+     "core_name",
+     "n/a"
+    ],
+    [
+     "number_of_cores",
+     "8-Core"
+    ],
+    [
+     "number_of_threads",
+     "16-Threads"
+    ],
+    [
+     "operating_frequency",
+     "4.2 GHz"
+    ],
+    [
+     "max_turbo_frequenvy",
+     "Up to 5.0 GHz"
+    ],
+    [
+     "l2_cache",
+     "8MB"
+    ],
+    [
+     "l3_cache",
+     "96MB"
+    ],
+    [
+     "manufacturing_tech",
+     "Zen 4 - TSMC 5nm FinFET"
+    ],
+    [
+     "support_64_bit",
+     "n/a"
+    ],
+    [
+     "hyper_threading_support",
+     "n/a"
+    ],
+    [
+     "memory_types",
+     "DDR5 5200"
+    ],
+    [
+     "memory_channel",
+     "2"
+    ],
+    [
+     "max_memory_size",
+     "n/a"
+    ],
+    [
+     "max_memory_bandwidth",
+     "n/a"
+    ],
+    [
+     "virtualization_technology_support",
+     "n/a"
+    ],
+    [
+     "integrated_graphics",
+     "AMD Radeon Graphics"
+    ],
+    [
+     "pci_express_revision",
+     "5.0 / 4.0 / 3.0"
+    ],
+    [
+     "max_number_pci_lanes",
+     "n/a"
+    ],
+    [
+     "thermal_design_power",
+     "120W"
+    ],
+    [
+     "cooling_device",
+     "Cooling device not included - Processor Only"
+    ],
+    [
+     "operating_system_supported",
+     "Windows 11"
+    ],
+    [
+     "date_first_available",
+     "2023-04-06"
+    ]
+   ]
+  },
+  {
+   "type": "CPU",
+   "id": 6,
+   "category": "CPUs",
+   "category_id": 5,
+   "title": "Intel Core i5-14600K",
+   "name": "Core i5-14600K",
+   "price": "249.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 139,
+   "units_sold": 0,
+   "images": [
+    "product_images/19-118-470-07.webp",
+    "product_images/19-118-470-08.webp",
+    "product_images/19-118-470-09.webp"
+   ],
+   "details": [
+    [
+     "title",
+     "Intel Core i5-14600K"
+    ],
+    [
+     "description",
+     "14 cores (6 P-cores + 8 E-cores) and 20 threads. Integrated Intel UHD Graphics 770 included\r\nPerformance hybrid architecture integrates two core microarchitectures, prioritizing and distributing workloads to optimize performance\r\nUp to 5.3 GHz unlocked. 24MB Cache\r\nCompatible with Intel 600-series (with potential BIOS update) and 700-series chipset-based motherboards\r\nTurbo Boost Max Technology 3.0 Frequency, and PCIe 5.0 & 4.0 support. Intel Optane Memory support. \r\nCooling device not included - Processor Only"
+    ],
+    [
+     "brand",
+     "Intel"
+    ],
+    [
+     "processor_type",
+     "Desktop"
+    ],
+    [
+     "series",
+     "Core i5 14th Gen"
+    ],
+    [
+     "name",
+     "Core i5-14600K"
+    ],
+    [
+     "model",
+     "BX8071514600K"
+    ],
+    [
+     "cpu_socket_type",
+     "LGA 1700"
+    ],
+    [
+     "core_name",
+     "Raptor Lake"
+    ],
+    [
+     "number_of_cores",
+     "14-Core (6P+8E)"
+    ],
+    [
+     "number_of_threads",
+     "20-Threads"
+    ],
+    [
+     "operating_frequency",
+     "Performance-core Base Frequency: 3.5 GHz\nEfficient-core Base Frequency: 2.6 GHz"
+    ],
+    [
+     "max_turbo_frequenvy",
+     "P-core Max Turbo Frequency: Up to 5.3 GHz\nE-core Max Turbo Frequency: Up to 4.0 GHz"
+    ],
+    [
+     "l2_cache",
+     "20MB"
+    ],
+    [
+     "l3_cache",
+     "24MB"
+    ],
+    [
+     "manufacturing_tech",
+     "Intel 7"
+    ],
+    [
+     "support_64_bit",
+     "n/a"
+    ],
+    [
+     "hyper_threading_support",
+     "Yes"
+    ],
+    [
+     "memory_types",
+     "DDR4 3200 / DDR5 5600"
+    ],
+    [
+     "memory_channel",
+     "2"
+    ],
+    [
+     "max_memory_size",
+     "192 GB"
+    ],
+    [
+     "max_memory_bandwidth",
+     "89.6 GB/s"
+    ],
+    [
+     "virtualization_technology_support",
+     "Yes"
+    ],
+    [
+     "integrated_graphics",
+     "Intel UHD Graphics 770"
+    ],
+    [
+     "pci_express_revision",
+     "5.0 / 4.0"
+    ],
+    [
+     "max_number_pci_lanes",
+     "20"
+    ],
+    [
+     "thermal_design_power",
+     "125W"
+    ],
+    [
+     "cooling_device",
+     "Cooling device not included - Processor Only"
+    ],
+    [
+     "operating_system_supported",
+     "Linux / Windows 10 (22H2, 21H2) / Windows 11 (22H2, 21H2)"
+    ],
+    [
+     "date_first_available",
+     "2023-10-16"
+    ]
+   ]
+  },
+  {
    "type": "GraphicsCard",
    "id": 1,
    "category": "Graphics Cards",
@@ -1583,6 +2205,276 @@
    ]
   },
   {
+   "type": "GraphicsCard",
+   "id": 4,
+   "category": "Graphics Cards",
+   "category_id": 6,
+   "title": "ASUS Dual GeForce RTX 4060 Ti OC 8GB",
+   "name": "ASUS Dual GeForce RTX 4060 Ti OC Edition 8GB GDDR6 (PCIe 4.0, 8GB GDDR6, DLSS 3, HDMI 2.1, DisplayPort 1.4a, Axial-tech fan design, 0dB technology) DUAL-RTX4060TI-O8G",
+   "price": "657.66",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 130,
+   "units_sold": 0,
+   "images": [
+    "product_images/14-126-647-V02.webp",
+    "product_images/14-126-647-V01.webp",
+    "product_images/14-126-647-V03.webp",
+    "product_images/14-126-647-V05.webp",
+    "product_images/14-126-647-V06.webp",
+    "product_images/14-126-647-V07.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "ASUS Dual GeForce RTX 4060 Ti OC Edition 8GB GDDR6 (PCIe 4.0, 8GB GDDR6, DLSS 3, HDMI 2.1, DisplayPort 1.4a, Axial-tech fan design, 0dB technology) DUAL-RTX4060TI-O8G"
+    ],
+    [
+     "title",
+     "ASUS Dual GeForce RTX 4060 Ti OC 8GB"
+    ],
+    [
+     "description",
+     "Powered by NVIDIA DLSS3, ultra-efficient Ada Lovelace arch, and full ray tracing.\r\n4th Generation Tensor Cores: Up to 4x performance with DLSS 3 vs. brute-force rendering.\r\n3rd Generation RT Cores: Up to 2x ray tracing performance.\r\nAxial-tech fan design features a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure.\r\nA 2.5-slot design maximizes compatibility and cooling efficiency for superior performance in small chassis.\r\n0dB technology lets you enjoy light gaming in relative silence.\r\nDual ball fan bearings can last up to twice as long as sleeve bearing designs.\r\nFree 1-month Adobe Creative Cloud Subscription: Receive complimentary access with the purchase of this product (offer valid from 9/15/2021 to 8/31/2024)"
+    ],
+    [
+     "brand",
+     "ASUS"
+    ],
+    [
+     "model",
+     "DUAL-RTX4060TI-O8G"
+    ],
+    [
+     "interface",
+     "PCI Express 4.0 x8"
+    ],
+    [
+     "chipset_manufacturer",
+     "NVIDIA"
+    ],
+    [
+     "gpu_series",
+     "NVIDIA GeForce RTX 40 Series"
+    ],
+    [
+     "gpu",
+     "GeForce RTX 4060 Ti"
+    ],
+    [
+     "game_clock",
+     "n/a"
+    ],
+    [
+     "boost_clock",
+     "n/a"
+    ],
+    [
+     "stream_processors",
+     "4352"
+    ],
+    [
+     "memory_size",
+     "8GB"
+    ],
+    [
+     "memory_interface",
+     "128-Bit"
+    ],
+    [
+     "memory_type",
+     "GDDR6"
+    ],
+    [
+     "directx",
+     "DirectX 12 Ultimate"
+    ],
+    [
+     "opengl",
+     "OpenGL 4.6"
+    ],
+    [
+     "multi_monitor_support",
+     "4"
+    ],
+    [
+     "hdmi",
+     "1 x HDMI 2.1a"
+    ],
+    [
+     "displayport",
+     "3 x DisplayPort 1.4a"
+    ],
+    [
+     "max_resolution",
+     "7680 x 4320"
+    ],
+    [
+     "cooler",
+     "Double Fans"
+    ],
+    [
+     "thermal_design_power",
+     "160W"
+    ],
+    [
+     "recommended_psu_wattage",
+     "650W"
+    ],
+    [
+     "power_connector",
+     "8-Pin"
+    ],
+    [
+     "gpu_length",
+     "227 mm"
+    ],
+    [
+     "slot_width",
+     "2.5 Slots"
+    ],
+    [
+     "date_first_available",
+     "2025-01-10"
+    ]
+   ]
+  },
+  {
+   "type": "GraphicsCard",
+   "id": 5,
+   "category": "Graphics Cards",
+   "category_id": 6,
+   "title": "XFX SPEEDSTER SWFT210 RX 7600",
+   "name": "XFX SPEEDSTER SWFT210 RADEON RX 7600 CORE Gaming Graphics Card RX-76PSWFTFY",
+   "price": "399.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 85,
+   "units_sold": 0,
+   "images": [
+    "product_images/14-150-879-04.webp",
+    "product_images/14-150-879-07.webp",
+    "product_images/14-150-879-02.webp",
+    "product_images/14-150-879-03.webp",
+    "product_images/14-150-879-05.webp",
+    "product_images/14-150-879-06.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "XFX SPEEDSTER SWFT210 RADEON RX 7600 CORE Gaming Graphics Card RX-76PSWFTFY"
+    ],
+    [
+     "title",
+     "XFX SPEEDSTER SWFT210 RX 7600"
+    ],
+    [
+     "description",
+     "8GB 128-Bit GDDR6 \r\nCore Clock 1720MHz \r\nBoost Clock 2655MHz \r\n1 x HDMI 2.1 3 x DisplayPort 1.4 \r\n2048 \r\nPCI Express 4.0 x8"
+    ],
+    [
+     "brand",
+     "XFX"
+    ],
+    [
+     "model",
+     "RX-76PSWFTFY"
+    ],
+    [
+     "interface",
+     "PCI Express 4.0 x8"
+    ],
+    [
+     "chipset_manufacturer",
+     "AMD"
+    ],
+    [
+     "gpu_series",
+     "AMD Radeon RX 7000 Series"
+    ],
+    [
+     "gpu",
+     "Radeon RX 7600"
+    ],
+    [
+     "game_clock",
+     "1720MHz"
+    ],
+    [
+     "boost_clock",
+     "2655MHz"
+    ],
+    [
+     "stream_processors",
+     "2048"
+    ],
+    [
+     "memory_size",
+     "8GB"
+    ],
+    [
+     "memory_interface",
+     "128-Bit"
+    ],
+    [
+     "memory_type",
+     "GDDR6"
+    ],
+    [
+     "directx",
+     "DirectX 12 Ultimate"
+    ],
+    [
+     "opengl",
+     "OpenGL 4.6"
+    ],
+    [
+     "multi_monitor_support",
+     "4"
+    ],
+    [
+     "hdmi",
+     "1 x HDMI 2.1"
+    ],
+    [
+     "displayport",
+     "3 x DisplayPort 1.4"
+    ],
+    [
+     "max_resolution",
+     "7680 x 4320"
+    ],
+    [
+     "cooler",
+     "Double Fans"
+    ],
+    [
+     "thermal_design_power",
+     "165W"
+    ],
+    [
+     "recommended_psu_wattage",
+     "550W"
+    ],
+    [
+     "power_connector",
+     "8-Pin"
+    ],
+    [
+     "gpu_length",
+     "241 mm"
+    ],
+    [
+     "slot_width",
+     "2 Slots"
+    ],
+    [
+     "date_first_available",
+     "2024-01-24"
+    ]
+   ]
+  },
+  {
    "type": "RAM",
    "id": 1,
    "category": "RAM",
@@ -1905,6 +2797,228 @@
     [
      "date_first_available",
      "2021-11-17"
+    ]
+   ]
+  },
+  {
+   "type": "RAM",
+   "id": 4,
+   "category": "RAM",
+   "category_id": 3,
+   "title": "Team T-Force Delta RGB DDR5 6000 32GB",
+   "name": "Team T-Force Delta RGB 32GB (2 x 16GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Desktop Memory Model FF3D532G6000HC30DC01",
+   "price": "599.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 442,
+   "units_sold": 0,
+   "images": [
+    "product_images/20-331-810-07.webp",
+    "product_images/20-331-923-02.webp",
+    "product_images/20-331-923-03.webp",
+    "product_images/20-331-923-04.webp",
+    "product_images/20-331-923-06.webp",
+    "product_images/20-331-923-07.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "Team T-Force Delta RGB 32GB (2 x 16GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Desktop Memory Model FF3D532G6000HC30DC01"
+    ],
+    [
+     "title",
+     "Team T-Force Delta RGB DDR5 6000 32GB"
+    ],
+    [
+     "description",
+     "DDR5 6000 (PC5 48000) \r\nTiming 30-36-36-76 \r\nCAS Latency CL30 \r\nVoltage 1.35V"
+    ],
+    [
+     "brand",
+     "Team"
+    ],
+    [
+     "series",
+     "T-Force Delta RGB"
+    ],
+    [
+     "model",
+     "FF3D532G6000HC30DC01"
+    ],
+    [
+     "part_number",
+     "n/a"
+    ],
+    [
+     "capacity",
+     "32GB (2 x 16GB)"
+    ],
+    [
+     "type",
+     "288-Pin PC RAM"
+    ],
+    [
+     "speed",
+     "DDR5 6000 (PC5 48000)"
+    ],
+    [
+     "cas_latency",
+     "CL30"
+    ],
+    [
+     "timing",
+     "30-36-36-76"
+    ],
+    [
+     "voltage",
+     "1.35V"
+    ],
+    [
+     "ecc",
+     "No"
+    ],
+    [
+     "buffered_registered",
+     "Unbuffered"
+    ],
+    [
+     "multi_channel_kit",
+     "n/a"
+    ],
+    [
+     "bios_performance_profile",
+     "Intel XMP 3.0 and AMD EXPO"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "heat_spreader",
+     "Yes"
+    ],
+    [
+     "recommend_use",
+     "Intel B660 / Intel Z690"
+    ],
+    [
+     "led_color",
+     "RGB"
+    ],
+    [
+     "date_first_available",
+     "2022-06-13"
+    ]
+   ]
+  },
+  {
+   "type": "RAM",
+   "id": 5,
+   "category": "RAM",
+   "category_id": 3,
+   "title": "CORSAIR Vengeance LPX DDR4 3200 16GB",
+   "name": "CORSAIR Vengeance LPX 16GB (2 x 8GB) 288-Pin PC RAM DDR4 3200 (PC4 25600) Desktop Memory Model CMK16GX4M2B3200C16",
+   "price": "156.95",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 415,
+   "units_sold": 143,
+   "images": [
+    "product_images/20-233-859-01.webp",
+    "product_images/B6T5S2112220ETRHRA0.webp",
+    "product_images/20-233-859-V03.webp",
+    "product_images/20-233-859-V01.webp",
+    "product_images/20-233-859-V04.webp",
+    "product_images/20-233-859-V02.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "CORSAIR Vengeance LPX 16GB (2 x 8GB) 288-Pin PC RAM DDR4 3200 (PC4 25600) Desktop Memory Model CMK16GX4M2B3200C16"
+    ],
+    [
+     "title",
+     "CORSAIR Vengeance LPX DDR4 3200 16GB"
+    ],
+    [
+     "description",
+     "Designed for high-performance overclocking\r\nDesigned for great looks\r\nPerformance and Compatibility\r\nLow-profile heatspreader design"
+    ],
+    [
+     "brand",
+     "CORSAIR"
+    ],
+    [
+     "series",
+     "Vengeance LPX"
+    ],
+    [
+     "model",
+     "CMK16GX4M2B3200C16"
+    ],
+    [
+     "part_number",
+     "n/a"
+    ],
+    [
+     "capacity",
+     "16GB (2 x 8GB)"
+    ],
+    [
+     "type",
+     "288-Pin PC RAM"
+    ],
+    [
+     "speed",
+     "DDR4 3200 (PC4 25600)"
+    ],
+    [
+     "cas_latency",
+     "CL16"
+    ],
+    [
+     "timing",
+     "16-18-18-36"
+    ],
+    [
+     "voltage",
+     "1.35V"
+    ],
+    [
+     "ecc",
+     "n/a"
+    ],
+    [
+     "buffered_registered",
+     "n/a"
+    ],
+    [
+     "multi_channel_kit",
+     "n/a"
+    ],
+    [
+     "bios_performance_profile",
+     "Intel XMP 2.0"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "heat_spreader",
+     "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pur…"
+    ],
+    [
+     "recommend_use",
+     "AMD 300 Series / AMD 400 Series / AMD X570 / Intel 200 Series / Intel 300 Series / Intel 400 Series…"
+    ],
+    [
+     "led_color",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2026-02-05"
     ]
    ]
   },
@@ -2314,6 +3428,276 @@
    ]
   },
   {
+   "type": "ComputerCase",
+   "id": 4,
+   "category": "Computer Cases",
+   "category_id": 7,
+   "title": "NZXT H5 Flow RGB (2024)",
+   "name": "NZXT H Series H5 Flow 2024 RGB Edition ATX Mid Tower Chassis All Black Color",
+   "price": "103.98",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 9,
+   "units_sold": 0,
+   "images": [
+    "product_images/11-146-368-08.webp",
+    "product_images/11-146-368-09.webp",
+    "product_images/11-146-368-10.webp",
+    "product_images/11-146-368-11.webp",
+    "product_images/11-146-368-12.webp",
+    "product_images/11-146-368-13.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "NZXT H Series H5 Flow 2024 RGB Edition ATX Mid Tower Chassis All Black Color"
+    ],
+    [
+     "title",
+     "NZXT H5 Flow RGB (2024)"
+    ],
+    [
+     "description",
+     "The H5 Flow boosts airflow and GPU cooling with its fully perforated PSU shroud, mesh panels, and robust radiator support.\r\nThe Coolers Graphics: Designed for enhanced GPU cooling, the mesh PSU shroud maximizes air intake from bottom-mounted fans.\r\nGo Big On Cooling: The front supports up to a 360mm radiator, and the top supports up to 240 mm or 280mm if using low-profile RAM - for powerful cooling potential.\r\nPerformance Paneling: Ultra-fine mesh panels optimize airflow for intake and exhaust while doubling as dust filters.\r\nRGB: Equipped with a front-mounted F360 RGB Core fan for exceptional out-of-the-box cooling and lightning."
+    ],
+    [
+     "brand",
+     "NZXT"
+    ],
+    [
+     "series",
+     "H5 Flow RGB"
+    ],
+    [
+     "model",
+     "CC-H52FB-R1"
+    ],
+    [
+     "type",
+     "ATX Mid Tower"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "case_material",
+     "SGCC Steel / Dark Tinted Tempered Glass"
+    ],
+    [
+     "with_power_supply",
+     "No"
+    ],
+    [
+     "power_supply",
+     "n/a"
+    ],
+    [
+     "psu_main_connector",
+     "n/a"
+    ],
+    [
+     "motherboard_compatibility",
+     "ATX / E-ATX / Micro ATX / Mini ITX"
+    ],
+    [
+     "dust_filters",
+     "Bottom / Front / Top"
+    ],
+    [
+     "internal_3_5_drive_bays",
+     "1"
+    ],
+    [
+     "internal_2_5_drive_bays",
+     "2"
+    ],
+    [
+     "expansion_slots",
+     "7"
+    ],
+    [
+     "front_ports",
+     "1 x USB 3.2 Type-A, 1 x USB 3.2 Type-C, 1 x Audio"
+    ],
+    [
+     "fan_options",
+     "Front: 3 x 120 mm / 2 x 140 mm (1 x F360 RGB Core Case Version included)\nTop: 2 x 120 mm / 2 x 140…"
+    ],
+    [
+     "radiator_options",
+     "Front: Up to 360 mm\nTop: Up to 240 mm (280mm with low-profile memory only)"
+    ],
+    [
+     "max_gpu_length",
+     "410 mm"
+    ],
+    [
+     "max_cpu_cooler_height",
+     "170 mm"
+    ],
+    [
+     "max_psu_length",
+     "200 mm"
+    ],
+    [
+     "dimensions",
+     "465 x 225 x 430 mm / 18.31\" x 8.86\" x 16.93\""
+    ],
+    [
+     "weight",
+     "7.28 kg / 16.04 lbs."
+    ],
+    [
+     "features",
+     "The H5 Flow boosts airflow and GPU cooling with its fully-perforated PSU shroud, mesh panels, and r…"
+    ],
+    [
+     "package_content",
+     "1 x H5 Flow RGB\n1 x F360 RGB Core (CV)\n2 x F120Q (CV)\n1 x Installation accessories\n1 x User guide"
+    ],
+    [
+     "date_first_available",
+     "2024-08-19"
+    ]
+   ]
+  },
+  {
+   "type": "ComputerCase",
+   "id": 5,
+   "category": "Computer Cases",
+   "category_id": 7,
+   "title": "Fractal Design North Chalk White",
+   "name": "Fractal Design North ATX mATX Mid Tower PC Case - North Chalk White with Oak Front and Clear TG Side Panel",
+   "price": "133.98",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 116,
+   "units_sold": 0,
+   "images": [
+    "product_images/11-352-206-21.webp",
+    "product_images/11-352-206-22.webp",
+    "product_images/11-352-206-23.webp",
+    "product_images/11-352-206-24.webp",
+    "product_images/11-352-206-25.webp",
+    "product_images/11-352-206-26.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "Fractal Design North ATX mATX Mid Tower PC Case - North Chalk White with Oak Front and Clear TG Side Panel"
+    ],
+    [
+     "title",
+     "Fractal Design North Chalk White"
+    ],
+    [
+     "description",
+     "Sophisticated design accented with real oak front \r\nDesigned for ATX / mATX / ITX motherboards\r\nSupports GPUs up to 355 mm (with front fan)\r\nSupports GPUs up to 300 mm (with 360 mm front radiator)\r\nComes with two dedicated 2.5\" mounts and two 3.5\"/2.5\" mounts \r\nTwo Aspect 140 mm PWM fans included\r\nHolds 6x 120 mm / 4x 140 mm fans\r\nComes with two combined 3.5\"/2.5\" mounts\r\nDesignated cable management area behind motherboard wall\r\nEasy to build in"
+    ],
+    [
+     "brand",
+     "Fractal Design"
+    ],
+    [
+     "series",
+     "n/a"
+    ],
+    [
+     "model",
+     "FD-C-NOR1C-04"
+    ],
+    [
+     "type",
+     "ATX Mid Tower"
+    ],
+    [
+     "color",
+     "Chalk White"
+    ],
+    [
+     "case_material",
+     "Steel"
+    ],
+    [
+     "with_power_supply",
+     "No"
+    ],
+    [
+     "power_supply",
+     "n/a"
+    ],
+    [
+     "psu_main_connector",
+     "n/a"
+    ],
+    [
+     "motherboard_compatibility",
+     "ATX / Micro ATX / Mini ITX"
+    ],
+    [
+     "dust_filters",
+     "Front"
+    ],
+    [
+     "internal_3_5_drive_bays",
+     "3 (2 included)"
+    ],
+    [
+     "internal_2_5_drive_bays",
+     "2 dedicated + 3 on drive trays (2 trays included)"
+    ],
+    [
+     "expansion_slots",
+     "7"
+    ],
+    [
+     "front_ports",
+     "1 x USB 3.2 Gen 2x2 Type-C, 2 x USB 3.0, 2 x Audio"
+    ],
+    [
+     "fan_options",
+     "Total fan mounts: 6 x 120 mm or 4 x 140 mm\nFront: 3 x 120 or 2 x 140 mm (2 x Aspect 140 mm PWM incl…"
+    ],
+    [
+     "radiator_options",
+     "Front: Up to 360/280 mm\nTop: Up to 240 mm (max 35 mm RAM height)\nRear: 120 mm"
+    ],
+    [
+     "max_gpu_length",
+     "355 mm with front fan mounted"
+    ],
+    [
+     "max_cpu_cooler_height",
+     "170 mm"
+    ],
+    [
+     "max_psu_length",
+     "255 mm w/ one HDD tray, 155 mm w/ two HDD trays"
+    ],
+    [
+     "dimensions",
+     "17.60\" x 8.46\" x 18.46\""
+    ],
+    [
+     "weight",
+     "16.98 lbs."
+    ],
+    [
+     "features",
+     "Sophisticated design accented with real oak front\nDesigned for ATX / mATX / ITX motherboards\nSuppor…"
+    ],
+    [
+     "package_content",
+     "North case\nAccessory box\nUser manual"
+    ],
+    [
+     "date_first_available",
+     "2022-12-07"
+    ]
+   ]
+  },
+  {
    "type": "PowerSupply",
    "id": 1,
    "category": "Power Supplies",
@@ -2460,6 +3844,308 @@
     [
      "date_first_available",
      "2023-03-09"
+    ]
+   ]
+  },
+  {
+   "type": "PowerSupply",
+   "id": 2,
+   "category": "Power Supplies",
+   "category_id": 8,
+   "title": "Seasonic FOCUS GX-850 ATX 3",
+   "name": "SeaSonic FOCUS GX ATX 3 (2024) GX-850 850 W Nvidia RTX 40 Super/50 Power Supplies",
+   "price": "159.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 152,
+   "units_sold": 0,
+   "images": [
+    "product_images/17-151-271-12.webp",
+    "product_images/17-151-271-13.webp",
+    "product_images/17-151-271-14.webp",
+    "product_images/17-151-271-15.webp",
+    "product_images/17-151-271-17.webp",
+    "product_images/17-151-271-18.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "SeaSonic FOCUS GX ATX 3 (2024) GX-850 850 W Nvidia RTX 40 Super/50 Power Supplies"
+    ],
+    [
+     "title",
+     "Seasonic FOCUS GX-850 ATX 3"
+    ],
+    [
+     "description",
+     "ATX3.1 \r\nNvidia RTX 40 Super/50\r\nFull Modular \r\n80 PLUS GOLD Certified \r\n100 - 240 V 50/60 Hz"
+    ],
+    [
+     "brand",
+     "SeaSonic"
+    ],
+    [
+     "series",
+     "FOCUS GX ATX 3 (2024)"
+    ],
+    [
+     "model",
+     "GX-850"
+    ],
+    [
+     "type",
+     "ATX 3.1"
+    ],
+    [
+     "maximum_power",
+     "850 W"
+    ],
+    [
+     "fans",
+     "1 x 135 mm Fluid Dynamic Bearing (FDB) Fan"
+    ],
+    [
+     "pfc",
+     "n/a"
+    ],
+    [
+     "main_connector",
+     "n/a"
+    ],
+    [
+     "plus12v_rails",
+     "n/a"
+    ],
+    [
+     "pci_express_connector",
+     "n/a"
+    ],
+    [
+     "sata_power_connector",
+     "n/a"
+    ],
+    [
+     "max_psu_length",
+     "150 mm"
+    ],
+    [
+     "modular",
+     "Full Modular"
+    ],
+    [
+     "hold_up_time",
+     "n/a"
+    ],
+    [
+     "efficiency",
+     "n/a"
+    ],
+    [
+     "energy_efficient",
+     "80 PLUS GOLD Certified"
+    ],
+    [
+     "psu_noise_level",
+     "n/a"
+    ],
+    [
+     "over_voltage_protection",
+     "n/a"
+    ],
+    [
+     "input_voltage",
+     "100 - 240 V"
+    ],
+    [
+     "input_frequency_range",
+     "50/60 Hz"
+    ],
+    [
+     "input_current",
+     "n/a"
+    ],
+    [
+     "output",
+     "n/a"
+    ],
+    [
+     "mtbf",
+     "n/a"
+    ],
+    [
+     "approvals",
+     "n/a"
+    ],
+    [
+     "connectors",
+     "n/a"
+    ],
+    [
+     "features",
+     "n/a"
+    ],
+    [
+     "dimensions",
+     "140 mm (L) x 150 mm (W) x 86 mm (H)"
+    ],
+    [
+     "weight",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2024-11-04"
+    ]
+   ]
+  },
+  {
+   "type": "PowerSupply",
+   "id": 3,
+   "category": "Power Supplies",
+   "category_id": 8,
+   "title": "MSI MAG A750GL PCIE5",
+   "name": "MSI MAG A750GL PCIE5, Fully Modular Compact Gaming 750W Power Supply, 80+ Gold, ATX 3.1 & PCIe 5.1 Ready, Native Dual-color 12V-2x6 cable, 10 Year Warranty",
+   "price": "99.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 84,
+   "units_sold": 64,
+   "images": [
+    "product_images/17-701-022-36.webp",
+    "product_images/17-701-022-35.webp",
+    "product_images/17-701-022-34.webp",
+    "product_images/17-701-022-37.webp",
+    "product_images/17-701-022-38.webp",
+    "product_images/17-701-022-39.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "MSI MAG A750GL PCIE5, Fully Modular Compact Gaming 750W Power Supply, 80+ Gold, ATX 3.1 & PCIe 5.1 Ready, Native Dual-color 12V-2x6 cable, 10 Year Warranty"
+    ],
+    [
+     "title",
+     "MSI MAG A750GL PCIE5"
+    ],
+    [
+     "description",
+     "ATX12V \r\nFull Modular \r\n80 PLUS GOLD Certified \r\n100 - 240 V 47 - 63 Hz \r\n+3.3V@20A, +5V@20A, +12V@60.2A, -12V@0.3A, +5VSB@2.5A"
+    ],
+    [
+     "brand",
+     "MSI"
+    ],
+    [
+     "series",
+     "n/a"
+    ],
+    [
+     "model",
+     "MAG A750GL PCIE5"
+    ],
+    [
+     "type",
+     "ATX12V"
+    ],
+    [
+     "maximum_power",
+     "750 W"
+    ],
+    [
+     "fans",
+     "1 x 120 mm"
+    ],
+    [
+     "pfc",
+     "Active"
+    ],
+    [
+     "main_connector",
+     "n/a"
+    ],
+    [
+     "plus12v_rails",
+     "n/a"
+    ],
+    [
+     "pci_express_connector",
+     "n/a"
+    ],
+    [
+     "sata_power_connector",
+     "5"
+    ],
+    [
+     "max_psu_length",
+     "150 mm"
+    ],
+    [
+     "modular",
+     "Full Modular"
+    ],
+    [
+     "hold_up_time",
+     "n/a"
+    ],
+    [
+     "efficiency",
+     "n/a"
+    ],
+    [
+     "energy_efficient",
+     "80 PLUS GOLD Certified"
+    ],
+    [
+     "psu_noise_level",
+     "n/a"
+    ],
+    [
+     "over_voltage_protection",
+     "n/a"
+    ],
+    [
+     "input_voltage",
+     "100 - 240 V"
+    ],
+    [
+     "input_frequency_range",
+     "47 - 63 Hz"
+    ],
+    [
+     "input_current",
+     "10A (Max.)"
+    ],
+    [
+     "output",
+     "+3.3V@20A, +5V@20A, +12V@60.2A, -12V@0.3A, +5VSB@2.5A"
+    ],
+    [
+     "mtbf",
+     "n/a"
+    ],
+    [
+     "approvals",
+     "n/a"
+    ],
+    [
+     "connectors",
+     "1 x MB (24/20 pins)\n2 x CPU (8/4 pins)\n3 x PCIe (8/6 pins)\n1(450W) x 12VHPWR (PCI-E 5.0)\n8 x SATA\n4…"
+    ],
+    [
+     "features",
+     "n/a"
+    ],
+    [
+     "dimensions",
+     "11.81 * 8.66 * 4.92\""
+    ],
+    [
+     "weight",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2023-07-20"
     ]
    ]
   },
@@ -2769,6 +4455,212 @@
     [
      "date_first_available",
      "2021-12-23"
+    ]
+   ]
+  },
+  {
+   "type": "CPUAirCooler",
+   "id": 4,
+   "category": "CPU Air Cooler",
+   "category_id": 9,
+   "title": "be quiet! Dark Rock Pro 5",
+   "name": "be quiet! Dark Rock Pro 5 | TDP 270W CPU Cooler | Air Cooler | Intel LGA 1851 1700 1200 1150 1151 1155 | AM5 AM4 | BK036",
+   "price": "84.90",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 18,
+   "units_sold": 36,
+   "images": [
+    "product_images/A68VS23101719JCQRFD.webp",
+    "product_images/A68VS23101719JCE2B6.webp",
+    "product_images/A68VS23101719JCDK50.webp",
+    "product_images/A68VS23101719JF6Y64.webp",
+    "product_images/A68VS23101719JD4L91.webp",
+    "product_images/A68VS23101719JEA79C.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "be quiet! Dark Rock Pro 5 | TDP 270W CPU Cooler | Air Cooler | Intel LGA 1851 1700 1200 1150 1151 1155 | AM5 AM4 | BK036"
+    ],
+    [
+     "title",
+     "be quiet! Dark Rock Pro 5"
+    ],
+    [
+     "description",
+     "German Engineering I German Design I German Quality I German Performance\nHIGH-PERFORMANCE COOLING: Incorporates 7 high-performance heat pipes for exceptionally efficient cooling power.\nSILENT AND EFFICIENT FANS: Equipped with 2 virtually inaudible Silent Wings PWM fans, ensuring perfect airflow without the noise.\nOPTIMAL AIR DISTRIBUTION: The front fan features a funnel-shaped outlet for superior air distribution, enhancing cooling performance.\nCUSTOMIZABLE PERFORMANCE: Features a speed switch that allows you to switch between Quiet Mode and Performance Mode according to your needs.\nCOMPATIBILITY: Offers height-adjustable front fan and generous heat sink cut-outs for compatibility with high RAM and VRM coolers.\nLIQUID METAL READY: Compatible with liquid metal thermal grease, further enhancing thermal conductivity for advanced cooling."
+    ],
+    [
+     "brand",
+     "be quiet!"
+    ],
+    [
+     "model",
+     "Dark Rock Pro 5"
+    ],
+    [
+     "type",
+     "Fan & Heatsinks"
+    ],
+    [
+     "fan_size",
+     "135 x 135 x 25 / 120 x 120 x 25"
+    ],
+    [
+     "cpu_socket_compatibility",
+     "AMD Socket AM4 / AMD Socket AM5 / Intel LGA 1150 / Intel LGA 1151 / Intel LGA 1155 / Intel LGA 1156 / Intel LGA 1200 / Intel LGA 1700 / Intel LGA 1851"
+    ],
+    [
+     "bearing_type",
+     "Fluid Dynamic"
+    ],
+    [
+     "rpm",
+     "1300 - 2000 RPM"
+    ],
+    [
+     "air_flow",
+     "50-55 CFM + 65-70 CFM (2 fans)"
+    ],
+    [
+     "noise_level",
+     "9-20dBA"
+    ],
+    [
+     "power_connector",
+     "4 pin PWM"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "led",
+     "Addressable RGB"
+    ],
+    [
+     "max_cpu_cooler_height",
+     "168 mm"
+    ],
+    [
+     "fan_dimensions",
+     "135 x 135 x 25 / 120 x 120 x 25"
+    ],
+    [
+     "heatsink_dimensions",
+     "119.5 x 136 x 168mm"
+    ],
+    [
+     "weight",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2024-01-19"
+    ]
+   ]
+  },
+  {
+   "type": "CPUAirCooler",
+   "id": 5,
+   "category": "CPU Air Cooler",
+   "category_id": 9,
+   "title": "DeepCool AK400 ZERO DARK",
+   "name": "DeepCool AK400 ZERO DARK Performance CPU Cooler, 4 Copper Heat Pipes, 120mm Fluid Dynamic Bearing PWM Fan, 220W TDP",
+   "price": "45.74",
+   "discount": "10.00",
+   "discounted_units": 30,
+   "stock_quantity": 154,
+   "units_sold": 2,
+   "images": [
+    "product_images/35-856-229-01.webp",
+    "product_images/35-856-229-02.webp",
+    "product_images/35-856-229-03.webp",
+    "product_images/35-856-229-04.webp",
+    "product_images/35-856-229-05.webp",
+    "product_images/35-856-229-06.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "DeepCool AK400 ZERO DARK Performance CPU Cooler, 4 Copper Heat Pipes, 120mm Fluid Dynamic Bearing PWM Fan, 220W TDP"
+    ],
+    [
+     "title",
+     "DeepCool AK400 ZERO DARK"
+    ],
+    [
+     "description",
+     "Highly Compatible: The AK400 ZERO DARK CPU cooler delivers impressive performance and compatibility in a compact tower layout that delivers 220W of heat dissipation power.\r\nAdvanced Heat Dissipation: 4 total copper heat pipes help quickly transfer heat away from the CPU into a dense matrix fin array heat sink for effective cooling.\r\nFluid Dynamic Bearing Fan: A 120mm FDB fan achieves high-performance cooling with minimal noise levels that ramps up for maximum cooling or down for silence.\r\nSimple and Secure Installation: A newly designed all-metal mounting bracket offers an easy five-step process for fastening the cooler on multiple platforms.\r\nCPU Socket Support: Intel LGA1700/1200/115X and AMD AM5/AM4"
+    ],
+    [
+     "brand",
+     "Deepcool"
+    ],
+    [
+     "model",
+     "AK400 ZERO DARK"
+    ],
+    [
+     "type",
+     "Fan & Heatsinks"
+    ],
+    [
+     "fan_size",
+     "120mm"
+    ],
+    [
+     "cpu_socket_compatibility",
+     "AMD Socket AM4 / AMD Socket AM5 / Intel LGA 1150 / Intel LGA 1151 / Intel LGA 1155 / Intel LGA 1200 / Intel LGA 1700"
+    ],
+    [
+     "bearing_type",
+     "Fluid Dynamic"
+    ],
+    [
+     "rpm",
+     "500~1850 RPM±10%"
+    ],
+    [
+     "air_flow",
+     "66.47 CFM"
+    ],
+    [
+     "noise_level",
+     "=29 dB(A)"
+    ],
+    [
+     "power_connector",
+     "4 Pin"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "led",
+     "Non-LED"
+    ],
+    [
+     "max_cpu_cooler_height",
+     "155 mm"
+    ],
+    [
+     "fan_dimensions",
+     "120×120×25 mm"
+    ],
+    [
+     "heatsink_dimensions",
+     "120×45×152 mm"
+    ],
+    [
+     "weight",
+     "661 g"
+    ],
+    [
+     "date_first_available",
+     "2023-08-10"
     ]
    ]
   },
@@ -3130,6 +5022,244 @@
    ]
   },
   {
+   "type": "CPULiquidCooler",
+   "id": 4,
+   "category": "CPU Liquid Cooler",
+   "category_id": 10,
+   "title": "LIAN LI Galahad II Trinity Performance 360",
+   "name": "LIAN LI Galahad II Trinity Performance 360, Intel 1851/1700/1200 & AMD AM5/AM4 Compatible, GA2P36B Liquid / Water Cooling",
+   "price": "259.90",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 138,
+   "units_sold": 26,
+   "images": [
+    "product_images/AFSTS23071308NT9KFE.webp",
+    "product_images/A0ZXD230808108DCP26.webp",
+    "product_images/AFSTS230713jE50T.webp",
+    "product_images/AFSTS230713dE8tA.webp",
+    "product_images/AFSTS230713DSxx5.webp",
+    "product_images/AFSTS230713n0rOT.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "LIAN LI Galahad II Trinity Performance 360, Intel 1851/1700/1200 & AMD AM5/AM4 Compatible, GA2P36B Liquid / Water Cooling"
+    ],
+    [
+     "title",
+     "LIAN LI Galahad II Trinity Performance 360"
+    ],
+    [
+     "description",
+     "L: 2300 RPM H: 3000 RPM L: 81.54 CFM (Max) H: 108.29 CFM (Max) \r\nFan Noise L: 32.1 dB(A) H: 39.9 dB(A)"
+    ],
+    [
+     "brand",
+     "LIAN LI"
+    ],
+    [
+     "series",
+     "Galahad II Trinity Performance 360"
+    ],
+    [
+     "model",
+     "GA2P36B"
+    ],
+    [
+     "part_number",
+     "n/a"
+    ],
+    [
+     "type",
+     "Liquid Cooling System"
+    ],
+    [
+     "block_compatibility",
+     "AMD Socket AM2 / AMD Socket AM2+ / AMD Socket AM3 / AMD Socket AM3+ / AMD Socket AM4 / AMD Socket AM5 / AMD Socket FM1 / AMD Socket FM2 / AMD Socket FM2+ / AMD Socket SP3 / AMD Socket sTR4 / AMD Socket sTRX4 / Intel LGA 1150 / Intel LGA 1151 / Intel LGA…"
+    ],
+    [
+     "block_compatibility_amd",
+     "n/a"
+    ],
+    [
+     "block_compatibility_intel",
+     "n/a"
+    ],
+    [
+     "pump_noise",
+     "n/a"
+    ],
+    [
+     "radiator_size",
+     "396 x 130 x 32 mm"
+    ],
+    [
+     "radiator_material",
+     "n/a"
+    ],
+    [
+     "fan_size",
+     "3 Fan Slots (120 mm)"
+    ],
+    [
+     "fan_dim",
+     "n/a"
+    ],
+    [
+     "bearing_type",
+     "Fluid Dynamic Bearing (FDB)"
+    ],
+    [
+     "fan_rpm",
+     "L: 2300 RPM\nH: 3000 RPM"
+    ],
+    [
+     "fan_air_flow",
+     "L: 81.54 CFM (Max)\nH: 108.29 CFM (Max)"
+    ],
+    [
+     "fan_noise",
+     "L: 32.1 dB(A)\nH: 39.9 dB(A)"
+    ],
+    [
+     "fan_connector",
+     "n/a"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "led_color",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2025-04-07"
+    ]
+   ]
+  },
+  {
+   "type": "CPULiquidCooler",
+   "id": 5,
+   "category": "CPU Liquid Cooler",
+   "category_id": 10,
+   "title": "DeepCool LT720 WH 360mm",
+   "name": "DeepCool LT720 WH Premium Liquid CPU Cooler, 360mm, High-Performance FK120 FDB Fans, Multidimensional Infinity Mirror Block",
+   "price": "124.49",
+   "discount": "25.00",
+   "discounted_units": 12,
+   "stock_quantity": 441,
+   "units_sold": 143,
+   "images": [
+    "product_images/35-856-250-09.webp",
+    "product_images/35-856-250-02.webp",
+    "product_images/35-856-250-03.webp",
+    "product_images/35-856-250-04.webp",
+    "product_images/35-856-250-05.webp",
+    "product_images/35-856-250-06.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "DeepCool LT720 WH Premium Liquid CPU Cooler, 360mm, High-Performance FK120 FDB Fans, Multidimensional Infinity Mirror Block"
+    ],
+    [
+     "title",
+     "DeepCool LT720 WH 360mm"
+    ],
+    [
+     "description",
+     "Break Into a New Dimension: Discover new found heights with liquid CPU cooling built on our 4th gen water pump design that rivals top competition for the cooling performance crown. \r\nInfinity Geometric Reflections: A three-dimensional infinity mirror block cover reflects off of multiple surfaces that offers a new visual experience and glows marvelously in millions of colors.\r\nExtremely Powerful: Maximize your cooling potential with DeepCool FK120 fans that are specially tuned for static pressure on liquid cooling radiators. The highly regarded cooling performance is backed up by its sturdy frame allowing for minimal tip clearance and maximum airflow.\r\nSynchronize Your Setup: Easily control the 5V Addressable-RGB LEDs on the pump and fans for dynamic visual effects through supported motherboard software.\r\nSimple and Secure: A newly designed mounting bracket makes it quick and easy to install for both Intel and AMD platforms (e.g., LGA 2066/1700/3600/115x, AMD AM4)"
+    ],
+    [
+     "brand",
+     "DEEPCOOL"
+    ],
+    [
+     "series",
+     "LT720 WH"
+    ],
+    [
+     "model",
+     "LT720 WH"
+    ],
+    [
+     "part_number",
+     "LT720 WH"
+    ],
+    [
+     "type",
+     "Liquid Cooling System"
+    ],
+    [
+     "block_compatibility",
+     "Intel LGA2066/2011-v3/2011/1700/1200/1151/1150/1155\nAMD sTRX4/sTR4/AM5/AM4"
+    ],
+    [
+     "block_compatibility_amd",
+     "AMD sTRX4/sTR4/AM5/AM4"
+    ],
+    [
+     "block_compatibility_intel",
+     "Intel LGA2066/2011-v3/2011/1700/1200/1151/1150/1155"
+    ],
+    [
+     "pump_noise",
+     "19 dB(A)"
+    ],
+    [
+     "radiator_size",
+     "402 * 120 * 27 mm"
+    ],
+    [
+     "radiator_material",
+     "Aluminum"
+    ],
+    [
+     "fan_size",
+     "3 Fan Slots (120 mm)"
+    ],
+    [
+     "fan_dim",
+     "120 * 120 * 25 mm"
+    ],
+    [
+     "bearing_type",
+     "Fluid Dynamic Bearing"
+    ],
+    [
+     "fan_rpm",
+     "500~2250 RPM±10%"
+    ],
+    [
+     "fan_air_flow",
+     "85.85 CFM"
+    ],
+    [
+     "fan_noise",
+     "32.9 dB(A)"
+    ],
+    [
+     "fan_connector",
+     "4-pin PWM"
+    ],
+    [
+     "color",
+     "White"
+    ],
+    [
+     "led_color",
+     "Addressable RGB"
+    ],
+    [
+     "date_first_available",
+     "2023-06-18"
+    ]
+   ]
+  },
+  {
    "type": "CaseFan",
    "id": 1,
    "category": "Case Fans",
@@ -3346,6 +5476,228 @@
     [
      "date_first_available",
      "2022-05-02"
+    ]
+   ]
+  },
+  {
+   "type": "CaseFan",
+   "id": 3,
+   "category": "Case Fans",
+   "category_id": 12,
+   "title": "ARCTIC P12 PWM PST 5-Pack",
+   "name": "ARCTIC P12 PWM PST (Black/Black) Value Pack 5pack - Pressure-optimised 120 mm Fan with PWM and PST (PWM Sharing Technology)",
+   "price": "68.98",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 34,
+   "units_sold": 0,
+   "images": [
+    "product_images/A1K6_131897989032240743YYUk1b2SIH.webp",
+    "product_images/A1K6_131897989334668196ikAGqVivUS.webp",
+    "product_images/A1K6_131897989306556636FY4HQ0kPnf.webp",
+    "product_images/A17P_1_201909271054855812.webp",
+    "product_images/V0M5D200929EHUZE.webp",
+    "product_images/V0M5D200929PYW7V.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "ARCTIC P12 PWM PST (Black/Black) Value Pack 5pack - Pressure-optimised 120 mm Fan with PWM and PST (PWM Sharing Technology)"
+    ],
+    [
+     "title",
+     "ARCTIC P12 PWM PST 5-Pack"
+    ],
+    [
+     "description",
+     "The P12 PWM PST is a 120 mm fan with PWM PST connectors. It features Completely redesigned fan blades and is optimized for high static pressure. \nThanks to this, it is especially effective when used on heatsinks and in situations with higher air resistance. \nThe wide RPM range from 200 to 1800 RPM can be regulated seamlessly and synchronously with other fans thanks to ARCTIC PWM Sharing Technology (PST). \nThe newly developed motor with a low coil temperature significantly increases the life span of the fan."
+    ],
+    [
+     "brand",
+     "ARCTIC COOLING"
+    ],
+    [
+     "series",
+     "P12 PWM PST"
+    ],
+    [
+     "model",
+     "ACFAN00137A"
+    ],
+    [
+     "fan_counts",
+     "n/a"
+    ],
+    [
+     "fan_controller",
+     "n/a"
+    ],
+    [
+     "type",
+     "Case Fan"
+    ],
+    [
+     "fan_size",
+     "n/a"
+    ],
+    [
+     "fan_thickness",
+     "n/a"
+    ],
+    [
+     "bearing_type",
+     "Fluid Dynamic"
+    ],
+    [
+     "rpm",
+     "200 - 1800 RPM (Controlled by PWM)"
+    ],
+    [
+     "air_flow",
+     "56.3 CFM (@ 1.800 RPM)"
+    ],
+    [
+     "noise_level",
+     "0.3 Sone (@ 1.800 RPM)"
+    ],
+    [
+     "power_connector",
+     "4 Pin"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "led",
+     "n/a"
+    ],
+    [
+     "features",
+     "Optimised for Static Pressure\nStrong Cooling Performance\nMore Efficient Technology\nMaximum Quietness, Minimum Vibration\nExtended Life Span\n200 to 1800 RPM regulated via PWM PST\nHigh Quality Bearing\nTwo Way Installation"
+    ],
+    [
+     "dimensions",
+     "120 x 120 x 25 mm"
+    ],
+    [
+     "package_contents",
+     "5 x Fan\n20 x Screw"
+    ],
+    [
+     "date_first_available",
+     "2023-08-21"
+    ]
+   ]
+  },
+  {
+   "type": "CaseFan",
+   "id": 4,
+   "category": "Case Fans",
+   "category_id": 12,
+   "title": "LIAN LI UNI FAN SL V2 120 Reverse",
+   "name": "Lian li UNI FAN SLV2 120 Reverse Blade, Black color, single pack without controller -----UF-RSL120V2-1B",
+   "price": "45.99",
+   "discount": "5.00",
+   "discounted_units": 30,
+   "stock_quantity": 30,
+   "units_sold": 255,
+   "images": [
+    "product_images/AFSTS230828i7aIh.webp",
+    "product_images/AFSTS230828UVgR8.webp",
+    "product_images/AFSTS230828UYmNC.webp",
+    "product_images/AFSTS230828TOUwb.webp",
+    "product_images/AFSTS230828RJKWH.webp",
+    "product_images/AFSTS230828DhJ2E.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "Lian li UNI FAN SLV2 120 Reverse Blade, Black color, single pack without controller -----UF-RSL120V2-1B"
+    ],
+    [
+     "title",
+     "LIAN LI UNI FAN SL V2 120 Reverse"
+    ],
+    [
+     "description",
+     "120 mm \n250-2100RPM 65.4CFM (Maximum) \nFluid Dynamic Bearing (FDB) \n32.0 dB(A)"
+    ],
+    [
+     "brand",
+     "Lian li"
+    ],
+    [
+     "series",
+     "n/a"
+    ],
+    [
+     "model",
+     "UNI FAN SLV2 120 Reverse Blade"
+    ],
+    [
+     "fan_counts",
+     "1 Fan"
+    ],
+    [
+     "fan_controller",
+     "No Controller"
+    ],
+    [
+     "type",
+     "Case Fan"
+    ],
+    [
+     "fan_size",
+     "120mm"
+    ],
+    [
+     "fan_thickness",
+     "28mm"
+    ],
+    [
+     "bearing_type",
+     "Fluid Dynamic Bearing (FDB)"
+    ],
+    [
+     "rpm",
+     "200-2100RPM"
+    ],
+    [
+     "air_flow",
+     "65.4CFM (Maximum)"
+    ],
+    [
+     "noise_level",
+     "30.8 dB(A)"
+    ],
+    [
+     "power_connector",
+     "n/a"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "led",
+     "ARGB"
+    ],
+    [
+     "features",
+     "n/a"
+    ],
+    [
+     "dimensions",
+     "n/a"
+    ],
+    [
+     "package_contents",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2025-03-25"
     ]
    ]
   },
@@ -3704,6 +6056,243 @@
    ]
   },
   {
+   "type": "SoundCard",
+   "id": 4,
+   "category": "Sound Card",
+   "category_id": 14,
+   "title": "Creative Sound Blaster Audigy FX",
+   "name": "Creative Sound Blaster Audigy FX PCIe 5.1 Sound Card with High Performance Headphone Amp",
+   "price": "60.00",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 8,
+   "units_sold": 52,
+   "images": [
+    "product_images/29-102-062-05.webp",
+    "product_images/29-102-062-06.webp",
+    "product_images/29-102-062-07.webp",
+    "product_images/29-102-062-08.webp",
+    "product_images/29-102-062-09.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "Creative Sound Blaster Audigy FX PCIe 5.1 Sound Card with High Performance Headphone Amp"
+    ],
+    [
+     "title",
+     "Creative Sound Blaster Audigy FX"
+    ],
+    [
+     "description",
+     "Easily converts the PC into a cinematic entertainment system by providing a compelling 5.1 surround sound\r\nAdvanced Audio Processing with SBX Pro Studio, a suite of Sound Blaster audio processing technologies that let you bring out the best in your audio\r\nIncludes the Sound Blaster Audigy Fx Control Panel, PC software that puts you in full control of the SBX Pro Studio suite of technologies\r\n600 ohm headphone amp for high performance, studio grade monitoring\r\n106 SNR and 24-bit 192kHz DAC (Playback) and 96kHz ADC (Recording)"
+    ],
+    [
+     "brand",
+     "Creative"
+    ],
+    [
+     "series",
+     "Sound Blaster"
+    ],
+    [
+     "model",
+     "AUDIGY FX"
+    ],
+    [
+     "part",
+     "70SB157000000"
+    ],
+    [
+     "audio_chipset",
+     "n/a"
+    ],
+    [
+     "channels",
+     "5.1"
+    ],
+    [
+     "sample_rate",
+     "192KHz"
+    ],
+    [
+     "digital_audio",
+     "24-bit"
+    ],
+    [
+     "snr",
+     "106dB"
+    ],
+    [
+     "encode",
+     "n/a"
+    ],
+    [
+     "line_in",
+     "1 x 3.5mm jack"
+    ],
+    [
+     "line_out",
+     "Front Out: 1 x 3.5mm jack\nRear Out: 1 x 3.5mm jack\nCentre/Subwoofer: 1 x 3.5mm jack"
+    ],
+    [
+     "spdif_in",
+     "n/a"
+    ],
+    [
+     "spdif_out",
+     "n/a"
+    ],
+    [
+     "other_ports",
+     "n/a"
+    ],
+    [
+     "interface",
+     "PCI Express x1"
+    ],
+    [
+     "operating_systems_supported",
+     "Windows 10, Windows 8, Windows 7, Windows Vista SP1 or higher"
+    ],
+    [
+     "system_requirements",
+     "Intel Core 2 Duo or AMD equivalent processor, 2.2GHz or faster recommended\nIntel, AMD or 100% compatible motherboard\n1 GB RAM\n> 600 MB of free hard disk space\nAvailable PCI Express 1 x slot\nAvailable CD-ROM or DVD - ROM drive"
+    ],
+    [
+     "features",
+     "Enjoy multi-channel cinematic sound\n\nIndependent input sources\n\n24-bit 192KHz\n\n106dB SNR\n\n600 ohms AMP\n\nControl and customize your audio"
+    ],
+    [
+     "package_contents",
+     "Sound Blaster Audigy Fx sound card (with full height I/O bracket)\nQuick Start leaflet\nHalf-height I/O bracket\nInstallation CD containing:\nDrivers for Windows 10, Windows 8, Windows 7 and Windows Vista\nCreative Software Suite\nUser's Guide PDF"
+    ],
+    [
+     "date_first_available",
+     "2013-10-30"
+    ]
+   ]
+  },
+  {
+   "type": "SoundCard",
+   "id": 5,
+   "category": "Sound Card",
+   "category_id": 14,
+   "title": "Creative Sound Blaster Audigy Rx",
+   "name": "Creative Sound Blaster Audigy PCIe RX 7.1 Sound Card with High Performance Headphone Amp",
+   "price": "64.20",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 571,
+   "units_sold": 0,
+   "images": [
+    "product_images/29-102-063-07.webp",
+    "product_images/29-102-063-08.webp",
+    "product_images/29-102-063-V80.webp",
+    "product_images/29-102-063-09.webp",
+    "product_images/29-102-063-10.webp",
+    "product_images/29-102-063-11.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "Creative Sound Blaster Audigy PCIe RX 7.1 Sound Card with High Performance Headphone Amp"
+    ],
+    [
+     "title",
+     "Creative Sound Blaster Audigy Rx"
+    ],
+    [
+     "description",
+     "Advanced chipset is designed to process the legendary EAX reverb engine for powerful enhanced audio\r\nImmerse yourself in full cinematic 7.1 multi-channel audio, perfect for games, movies and music\r\n106dB SNR ensures a high level of audio quality and supported operating systems is Windows 8, Windows XP SP2 or higher, Windows Vista SP1 or higher, Windows 7, Windows 10\r\n600 ohm headphone amp provides studio grade monitoring\r\nHigh quality 24-bit 192 kHz stereo direct playback"
+    ],
+    [
+     "brand",
+     "Creative"
+    ],
+    [
+     "series",
+     "n/a"
+    ],
+    [
+     "model",
+     "Sound Blaster Audigy RX"
+    ],
+    [
+     "part",
+     "70SB155000001"
+    ],
+    [
+     "audio_chipset",
+     "Creative E-MU"
+    ],
+    [
+     "channels",
+     "7.1"
+    ],
+    [
+     "sample_rate",
+     "192KHz"
+    ],
+    [
+     "digital_audio",
+     "24-bit"
+    ],
+    [
+     "snr",
+     "106dB"
+    ],
+    [
+     "encode",
+     "n/a"
+    ],
+    [
+     "line_in",
+     "1 x 3.5mm jack"
+    ],
+    [
+     "line_out",
+     "1 x 3.5mm jack (Front Out)\n\n1 x 3.5mm jack (Rear / Side R)\n\n1 x 3.5mm jack (C / Sub / Side L)"
+    ],
+    [
+     "spdif_in",
+     "n/a"
+    ],
+    [
+     "spdif_out",
+     "1 x TOSLINK"
+    ],
+    [
+     "other_ports",
+     "n/a"
+    ],
+    [
+     "interface",
+     "PCI Express x1"
+    ],
+    [
+     "operating_systems_supported",
+     "Windows 10\nWindows 8\nWindows 7\nWindows Vista SP1 or higher\nWindows XP SP2 or higher"
+    ],
+    [
+     "system_requirements",
+     "Intel Core2 Duo or AMD processor equivalent (2.0 GHz or faster processor recommended)\nIntel, AMD or 100% compatible motherboard\n1 GB RAM\n> 600 MB of free hard disk space\nAvailable PCI Express based 1.0a compliant slot\nCD or DVD drive for software installation"
+    ],
+    [
+     "features",
+     "E-MU chipset for advanced effects processing\n\nDual microphone inputs\n\nSuper low-latency audio recordings\n\nControl and customize your audio\n\nFine-tune your EAX settings\n\nPremium Sound Blaster quality\n\nBundled Creative recording software\n\nDedicated high-quality headphone amp\n\nEnjoy cinematic surround sound"
+    ],
+    [
+     "package_contents",
+     "Sound Blaster Audigy Rx\nQuick Start Leaflet\nInstallation CD\nWarranty Leaflets"
+    ],
+    [
+     "date_first_available",
+     "2026-09-15"
+    ]
+   ]
+  },
+  {
    "type": "HardDrive",
    "id": 1,
    "category": "Hard Drive",
@@ -4020,6 +6609,220 @@
     [
      "date_first_available",
      "2022-05-23"
+    ]
+   ]
+  },
+  {
+   "type": "HardDrive",
+   "id": 4,
+   "category": "Hard Drive",
+   "category_id": 16,
+   "title": "TOSHIBA X300 4TB",
+   "name": "TOSHIBA X300 4TB Desktop Hard Drive 7200 RPM 128MB Cache SATA 6.0Gb/s 3.5\" Internal Hard Drive Retail Packaging HDWE140XZSTA",
+   "price": "104.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 25,
+   "units_sold": 0,
+   "images": [
+    "product_images/22-149-627-V01.webp",
+    "product_images/22-149-627-V02.webp",
+    "product_images/22-149-627-V07.webp",
+    "product_images/22-149-627-V04.webp",
+    "product_images/22-149-627-V05.webp",
+    "product_images/22-149-627-V06.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "TOSHIBA X300 4TB Desktop Hard Drive 7200 RPM 128MB Cache SATA 6.0Gb/s 3.5\" Internal Hard Drive Retail Packaging HDWE140XZSTA"
+    ],
+    [
+     "title",
+     "TOSHIBA X300 4TB"
+    ],
+    [
+     "description",
+     "Designed for gaming PC and high-end desktop workstations\r\nHigh Performance with 7200 RPM and large cache size \r\nMassive capacity to accommodate large gaming libraries\r\nToshiba's cache technology to deliver high-level performance in real time\r\nRamp loading and drive stabilization technologies for reliability\r\nIncludes Toshiba 2-year limited warranty\r\nRetail or OEM packing may vary"
+    ],
+    [
+     "brand",
+     "TOSHIBA"
+    ],
+    [
+     "type",
+     "n/a"
+    ],
+    [
+     "series",
+     "X300"
+    ],
+    [
+     "model",
+     "HDWE140XZSTA"
+    ],
+    [
+     "packaging",
+     "Retail Packaging"
+    ],
+    [
+     "interface",
+     "SATA 6.0Gb/s"
+    ],
+    [
+     "capacity",
+     "4TB"
+    ],
+    [
+     "nand_flash_memory_type",
+     "Hard Drives"
+    ],
+    [
+     "recording_technology",
+     "n/a"
+    ],
+    [
+     "rpm",
+     "7200 RPM"
+    ],
+    [
+     "cache",
+     "128MB"
+    ],
+    [
+     "features",
+     "The Toshiba X300 Performance Hard Drive has the technology to take your gaming to the extreme. The last thing gamers want is lag. With high performance in mind, the X300 Performance Hard Drive offers 7200 RPM and large cache size to keep your gaming experience going in real-time. The X300 also has the massive capacity for your gaming library to grow and the high performance to take your game to the next level.\n\nDesigned for a professional system, home media computer, or gaming PC, the X300 comes with data protection and drive stabilization technologies to help mitigate vibrations and improve tracking accuracy. All of which means more reliability than ever for backing up your game data and digital content.\n\nApplications:\nPowerful desktop workstations\nAll-in-one PCs\nGaming computers\nHome media computers"
+    ],
+    [
+     "usage",
+     "Gaming Hard Drives"
+    ],
+    [
+     "form_factor",
+     "3.5\""
+    ],
+    [
+     "height_maximum",
+     "26.10mm"
+    ],
+    [
+     "width_maximum",
+     "101.85mm"
+    ],
+    [
+     "length_maximum",
+     "147.00mm"
+    ],
+    [
+     "date_first_available",
+     "2015-10-26"
+    ]
+   ]
+  },
+  {
+   "type": "HardDrive",
+   "id": 5,
+   "category": "Hard Drive",
+   "category_id": 16,
+   "title": "WD Red Plus 4TB",
+   "name": "WD Red Plus 4TB NAS Hard Disk Drive - 5400 RPM Class SATA 6Gb/s, CMR, 256MB Cache, 3.5 Inch - WD40EFPX",
+   "price": "245.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 581,
+   "units_sold": 10,
+   "images": [
+    "product_images/22-234-533-15.webp",
+    "product_images/22-234-533-17.webp",
+    "product_images/22-234-533-16.webp",
+    "product_images/22-234-465-V05.webp",
+    "product_images/22-234-465-V06.webp",
+    "product_images/22-234-465-V07.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "WD Red Plus 4TB NAS Hard Disk Drive - 5400 RPM Class SATA 6Gb/s, CMR, 256MB Cache, 3.5 Inch - WD40EFPX"
+    ],
+    [
+     "title",
+     "WD Red Plus 4TB"
+    ],
+    [
+     "description",
+     "•\tAvailable in capacities ranging from 1-14TB with support for up to 8 bays\r\n•\tSupports up to 180 TB/yr workload rate\r\n•\tNASware™ firmware for compatibility\r\n•\tBuilt for small or medium business NAS systems in a 24/7 environment\r\n•\t3-year limited warranty\r\nRetail or OEM packing may vary"
+    ],
+    [
+     "brand",
+     "WD"
+    ],
+    [
+     "type",
+     "n/a"
+    ],
+    [
+     "series",
+     "Red Plus"
+    ],
+    [
+     "model",
+     "WD40EFPX"
+    ],
+    [
+     "packaging",
+     "n/a"
+    ],
+    [
+     "interface",
+     "SATA 6.0Gb/s"
+    ],
+    [
+     "capacity",
+     "4TB"
+    ],
+    [
+     "nand_flash_memory_type",
+     "Hard Drive"
+    ],
+    [
+     "recording_technology",
+     "CMR"
+    ],
+    [
+     "rpm",
+     "5400 RPM"
+    ],
+    [
+     "cache",
+     "256MB"
+    ],
+    [
+     "features",
+     "Tackle Intensity with WD Red® Plus\nPacked with power to handle NAS environments in home offices up to medium-sized businesses, WD Red Plus is ideal for helping protect, archive, and share valuable data in NAS systems with up to 8 bays. WD Red Plus NAS drives give you the flexibility, versatility, and confidence you need for your important home and work files.\n\nFor Small or Medium Businesses \nWD Red® Plus drives deliver the speed and capacity business customers require to store, protect, and share increasing amounts of data with a growing number of NAS users. For NAS systems with up to 8 bays, WD Red Plus drives deliver uncompromising performance and unwavering assurance backed by a 3-year limited warranty2.\n\nFor Home Office and Power Users\nWhether you’re a power user looking to store high-resolution videos or running a home office with thousands of electronic documents, WD Red® Plus drives are designed to help you effortlessly organize, protect, and share your digital content.\nExclusive NASware™ 3.0 Technology\n\nBuilt into every WD Red® Plus hard drive is Western Digital’s exclusive NASware 3.0 technology. NASware 3.0 is advanced technology that improves your NAS system by increasing compatibility, integration, upgradeability, and reliability. WD Red Plus drives with NASware technology take the guesswork out of selecting a drive for your NAS system.\n\nBuilt for Optimum NAS Compatibility\nOptimized for NAS systems, our unique algorithm balances performance and reliability in NAS and RAID environments. Simply put, a WD Red® Plus drive is one of the most compatible drives available for NAS enclosures. But don’t take our word for it. WD Red Plus drives are a reflection of extensive NAS partner technology engagement and compatibility testing."
+    ],
+    [
+     "usage",
+     "For NAS systems"
+    ],
+    [
+     "form_factor",
+     "3.5\""
+    ],
+    [
+     "height_maximum",
+     "26.10mm"
+    ],
+    [
+     "width_maximum",
+     "101.60mm"
+    ],
+    [
+     "length_maximum",
+     "147.00mm"
+    ],
+    [
+     "date_first_available",
+     "2026-09-27"
     ]
    ]
   },
@@ -4425,6 +7228,273 @@
     [
      "date_first_available",
      "2026-04-25"
+    ]
+   ]
+  },
+  {
+   "type": "SSD",
+   "id": 4,
+   "category": "SSD",
+   "category_id": 17,
+   "title": "SAMSUNG 870 EVO 1TB",
+   "name": "Samsung 870 EVO SATA III SSD 1TB 2.5” Internal Solid State Drive, Upgrade PC or Laptop Memory and Storage for IT Pros, Creators, Everyday Users, MZ-77E1T0B/AM",
+   "price": "314.00",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 437,
+   "units_sold": 0,
+   "images": [
+    "product_images/20-147-792-V01.webp",
+    "product_images/20-147-793-01.webp",
+    "product_images/20-147-792-V03.webp",
+    "product_images/20-147-792-V04.webp",
+    "product_images/20-147-792-V05.webp",
+    "product_images/20-147-792-V06.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "Samsung 870 EVO SATA III SSD 1TB 2.5” Internal Solid State Drive, Upgrade PC or Laptop Memory and Storage for IT Pros, Creators, Everyday Users, MZ-77E1T0B/AM"
+    ],
+    [
+     "title",
+     "SAMSUNG 870 EVO 1TB"
+    ],
+    [
+     "description",
+     "• THE SSD ALL-STAR - The latest 870 EVO has indisputable performance, reliability and compatibility built upon Samsung's pioneering technology.\r\n• EXCELLENCE IN PERFORMANCE - Enjoy professional-level SSD performance with 870 EVO, which maximizes the SATA interface limit to 560/530 MB/s sequential speeds*, accelerates write speeds and maintains long-term high performance with a larger variable buffer.\r\n• INDUSTRY-DEFINING RELIABILITY - Meet the demands of every task — from everyday computing to 8K video processing, with up to 2,400 TBW* under a 5-year limited warranty.\r\n• MORE COMPATIBLE THAN EVER - 870 EVO has been compatibility tested for major host systems and applications, including chipsets, motherboards, NAS, and video recording devices.\r\n• UPGRADE WITH EASE - Simply plug 870 EVO into the standard 2.5-inch SATA form factor on your desktop PC or laptop and let the renewed migration software takes care of the rest."
+    ],
+    [
+     "brand",
+     "SAMSUNG"
+    ],
+    [
+     "series",
+     "870 EVO Series"
+    ],
+    [
+     "model",
+     "MZ-77E1T0B/AM"
+    ],
+    [
+     "device_type",
+     "Internal Solid State Drive (SSD)"
+    ],
+    [
+     "form_factor",
+     "2.5\""
+    ],
+    [
+     "capacity",
+     "1TB"
+    ],
+    [
+     "memory_components",
+     "V-NAND"
+    ],
+    [
+     "interface",
+     "SATA III"
+    ],
+    [
+     "max_sequential_read",
+     "Up to 560 MBps"
+    ],
+    [
+     "max_sequential_write",
+     "Up to 530 MBps"
+    ],
+    [
+     "random_read_4kb",
+     "n/a"
+    ],
+    [
+     "random_write_4kb",
+     "n/a"
+    ],
+    [
+     "tbw",
+     "600TB"
+    ],
+    [
+     "mttf",
+     "n/a"
+    ],
+    [
+     "heatsink",
+     "n/a"
+    ],
+    [
+     "features",
+     "THE SSD ALL-STAR - The latest 870 EVO has indisputable performance, reliability and compatibility built upon Samsung's pioneering technology.\n\nEXCELLENCE IN PERFORMANCE - Enjoy professional-level SSD performance with 870 EVO, which maximizes the SATA interface limit to 560/530 MB/s sequential speeds, accelerates write speeds and maintains long-term high performance with a larger variable buffer.\n\nINDUSTRY-DEFINING RELIABILITY - Meet the demands of every task - from everyday computing to 8K video processing, with up to 600 TBW.\n\nMORE COMPATIBLE THAN EVER - 870 EVO has been compatibility tested for major host systems and applications, including chipsets, motherboards, NAS, and video recording devices.\n\nUPGRADE WITH EASE - Simply plug 870 EVO into the standard 2.5-inch SATA form factor on your desktop PC or laptop and let the renewed migration software takes care of the rest.\n\nSAMSUNG MAGICIAN SOFTWARE - Make your drive work smoothly with enhanced Samsung Magician 6 software that helps you easily manage your drive, keep up with the latest updates, monitor the drive's health and status, or even enhance its performance."
+    ],
+    [
+     "operating_temperature",
+     "n/a"
+    ],
+    [
+     "storage_temperature",
+     "n/a"
+    ],
+    [
+     "max_shock_resistance",
+     "1500G"
+    ],
+    [
+     "max_vibration_resistance",
+     "n/a"
+    ],
+    [
+     "height",
+     "7.00mm"
+    ],
+    [
+     "width",
+     "69.85mm"
+    ],
+    [
+     "depth",
+     "100.00mm"
+    ],
+    [
+     "weight",
+     "86.18g"
+    ],
+    [
+     "date_first_available",
+     "2022-10-24"
+    ]
+   ]
+  },
+  {
+   "type": "SSD",
+   "id": 5,
+   "category": "SSD",
+   "category_id": 17,
+   "title": "Kingston NV2 1TB",
+   "name": "Kingston NV2 1TB M.2 2280 NVMe PCIe Internal SSD Up to 3500 MB/s SNV2S/1000G",
+   "price": "139.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 35,
+   "units_sold": 0,
+   "images": [
+    "product_images/20-242-729-05.webp",
+    "product_images/20-242-729-06.webp",
+    "product_images/20-242-729-07.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "Kingston NV2 1TB M.2 2280 NVMe PCIe Internal SSD Up to 3500 MB/s SNV2S/1000G"
+    ],
+    [
+     "title",
+     "Kingston NV2 1TB"
+    ],
+    [
+     "description",
+     "Ideal for laptops & small form factor PCs \r\nGen 4x4 NVMe PCle performance\r\nAvailable in a range of capacities up to 2TB to meet your data storage requirements."
+    ],
+    [
+     "brand",
+     "Kingston"
+    ],
+    [
+     "series",
+     "SNV2S"
+    ],
+    [
+     "model",
+     "SNV2S/1000G"
+    ],
+    [
+     "device_type",
+     "Internal Solid State Drive (SSD)"
+    ],
+    [
+     "form_factor",
+     "M.2 2280"
+    ],
+    [
+     "capacity",
+     "1TB"
+    ],
+    [
+     "memory_components",
+     "n/a"
+    ],
+    [
+     "interface",
+     "PCIe 4.0 x4 NVMe"
+    ],
+    [
+     "max_sequential_read",
+     "Up to 3500 MBps"
+    ],
+    [
+     "max_sequential_write",
+     "Up to 2100 MBps"
+    ],
+    [
+     "random_read_4kb",
+     "n/a"
+    ],
+    [
+     "random_write_4kb",
+     "n/a"
+    ],
+    [
+     "tbw",
+     "n/a"
+    ],
+    [
+     "mttf",
+     "n/a"
+    ],
+    [
+     "heatsink",
+     "n/a"
+    ],
+    [
+     "features",
+     "n/a"
+    ],
+    [
+     "operating_temperature",
+     "n/a"
+    ],
+    [
+     "storage_temperature",
+     "n/a"
+    ],
+    [
+     "max_shock_resistance",
+     "n/a"
+    ],
+    [
+     "max_vibration_resistance",
+     "n/a"
+    ],
+    [
+     "height",
+     "3.80mm"
+    ],
+    [
+     "width",
+     "n/a"
+    ],
+    [
+     "depth",
+     "n/a"
+    ],
+    [
+     "weight",
+     "10g"
+    ],
+    [
+     "date_first_available",
+     "2022-09-22"
     ]
    ]
   },
@@ -4906,6 +7976,324 @@
    ]
   },
   {
+   "type": "Monitor",
+   "id": 4,
+   "category": "Monitors",
+   "category_id": 18,
+   "title": "DELL S2721DGF 27\"",
+   "name": "New DELL S2721DGF 27\" QHD 2560x1440 IPS Gaming Monitor DisplayPort 165 Hz HDMI: 144 Hz 1 ms 400 cd/m2 Brightness AMD FreeSync Height, Swivel, Pivot, Tilt",
+   "price": "448.98",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 18,
+   "units_sold": 270,
+   "images": [
+    "product_images/AKVHD201225EI8P9.webp",
+    "product_images/AKVHD2012256PWZR.webp",
+    "product_images/AKVHD201225J5Q9B.webp",
+    "product_images/AKVHD2012258DM4C.webp",
+    "product_images/AKVHD2012250WZIZ.webp",
+    "product_images/AJ7WD210311EKYGK.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "New DELL S2721DGF 27\" QHD 2560x1440 IPS Gaming Monitor DisplayPort 165 Hz HDMI: 144 Hz 1 ms 400 cd/m2 Brightness AMD FreeSync Height, Swivel, Pivot, Tilt"
+    ],
+    [
+     "title",
+     "DELL S2721DGF 27\""
+    ],
+    [
+     "description",
+     "27\" QHD 2560x1440 (DisplayPort: 165 Hz, HDMI: 144 Hz) Fast IPS Nano Color Panel | 16:9 Aspect Ratio\n400 cd/m2 (typical) Brightness | 1 ms (GtG) Response Time\n1000:1 Contrast Ratio | 178°/178° Viewing Angles\n1.07 billion colors Support | VESA DisplayHDR 400\nNVIDIA G-SYNC Compatible Certified and supports AMD FreeSync Premium Pro Technology\nHDMI DisplayPort | Height, Swivel, Pivot, Tilt"
+    ],
+    [
+     "brand",
+     "Dell"
+    ],
+    [
+     "series",
+     "n/a"
+    ],
+    [
+     "cabinet_color",
+     "Gray"
+    ],
+    [
+     "bezel_design",
+     "n/a"
+    ],
+    [
+     "screen_size",
+     "27\""
+    ],
+    [
+     "widescreen",
+     "n/a"
+    ],
+    [
+     "glare_screen",
+     "n/a"
+    ],
+    [
+     "panel",
+     "n/a"
+    ],
+    [
+     "display_type",
+     "n/a"
+    ],
+    [
+     "adaptive_sync_technology",
+     "FreeSync Premium & G-Sync Compatible"
+    ],
+    [
+     "recommended_resolution",
+     "n/a"
+    ],
+    [
+     "viewing_angle",
+     "178° (H) / 178° (V)"
+    ],
+    [
+     "brightness",
+     "400 cd/m2"
+    ],
+    [
+     "contrast_ratio",
+     "1000:1"
+    ],
+    [
+     "response_time",
+     "1 ms"
+    ],
+    [
+     "color_gamut",
+     "n/a"
+    ],
+    [
+     "pixel_pitch",
+     "n/a"
+    ],
+    [
+     "refresh_rate",
+     "165Hz"
+    ],
+    [
+     "hdr_standard",
+     "n/a"
+    ],
+    [
+     "curved_surface_screen",
+     "n/a"
+    ],
+    [
+     "curvature_radius",
+     "n/a"
+    ],
+    [
+     "video_ports",
+     "n/a"
+    ],
+    [
+     "headphone",
+     "n/a"
+    ],
+    [
+     "power_supply",
+     "n/a"
+    ],
+    [
+     "power_consumption",
+     "n/a"
+    ],
+    [
+     "stand_adjustments",
+     "n/a"
+    ],
+    [
+     "built_in_speakers",
+     "No"
+    ],
+    [
+     "vesa_compatibility_mountable",
+     "100 mm"
+    ],
+    [
+     "dimensions",
+     "n/a"
+    ],
+    [
+     "weight",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2024-05-02"
+    ]
+   ]
+  },
+  {
+   "type": "Monitor",
+   "id": 5,
+   "category": "Monitors",
+   "category_id": 18,
+   "title": "MSI Optix G274RW 27\"",
+   "name": "MSI Optix G274RW 27\" 16:9 Gaming Monitor White, 170Hz 1ms, 1920 x 1080 (FHD), G-Sync Compatible, Height Adjustable Arm, RGB LED",
+   "price": "214.12",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 34,
+   "units_sold": 177,
+   "images": [
+    "product_images/24-475-215-20.webp",
+    "product_images/24-475-215-19.webp",
+    "product_images/24-475-215-11.webp",
+    "product_images/24-475-215-10.webp",
+    "product_images/24-475-215-02.webp",
+    "product_images/24-475-215-12.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "MSI Optix G274RW 27\" 16:9 Gaming Monitor White, 170Hz 1ms, 1920 x 1080 (FHD), G-Sync Compatible, Height Adjustable Arm, RGB LED"
+    ],
+    [
+     "title",
+     "MSI Optix G274RW 27\""
+    ],
+    [
+     "description",
+     "IPS Panel - Optimize screen colors and brightness to enhance your viewing experience.\r\n170Hz Refresh Rate - Respond faster with smoother frames.\r\n1ms Response Time - Eliminate screen tearing and choppy frame rates\r\nNVIDIA G-SYNC Compatible - Prevent screen tearing or stuttering, producing ultra-smooth lag-free gameplay.\r\nNight Vision - Smart black tuner to brighten your day by bringing out the fine details in dark areas.\r\nWide Color Gamut - Game colors and details will look more realistic and refined.\r\nFrameless Design - Enjoy the ultimate gaming experience with super narrow bezels.\r\nAnti-Flicker and Less Blue Light - Game even longer and prevent eye strain and fatigue.\r\n178° Wide Viewing Angle - Colors and details will stay sharp at more angles with a 178° wide viewing angle.\r\nAdjustable Stand - Easily change the position of the monitor for maximum ergonomics."
+    ],
+    [
+     "brand",
+     "MSI"
+    ],
+    [
+     "series",
+     "n/a"
+    ],
+    [
+     "cabinet_color",
+     "White"
+    ],
+    [
+     "bezel_design",
+     "3 Sided Frameless"
+    ],
+    [
+     "screen_size",
+     "27\""
+    ],
+    [
+     "widescreen",
+     "Yes"
+    ],
+    [
+     "glare_screen",
+     "Anti-glare"
+    ],
+    [
+     "panel",
+     "IPS"
+    ],
+    [
+     "display_type",
+     "FHD"
+    ],
+    [
+     "adaptive_sync_technology",
+     "G-Sync Compatible"
+    ],
+    [
+     "recommended_resolution",
+     "1920 x 1080"
+    ],
+    [
+     "viewing_angle",
+     "178° (H) / 178° (V)"
+    ],
+    [
+     "brightness",
+     "250 cd/m2"
+    ],
+    [
+     "contrast_ratio",
+     "DCR 100,000,000:1 (1,000:1)"
+    ],
+    [
+     "response_time",
+     "1 ms (MPRT)"
+    ],
+    [
+     "color_gamut",
+     "85% Adobe RGB / 92% DCI-P3 / 135% sRGB"
+    ],
+    [
+     "pixel_pitch",
+     "n/a"
+    ],
+    [
+     "refresh_rate",
+     "170Hz"
+    ],
+    [
+     "hdr_standard",
+     "n/a"
+    ],
+    [
+     "curved_surface_screen",
+     "Flat Panel"
+    ],
+    [
+     "curvature_radius",
+     "n/a"
+    ],
+    [
+     "video_ports",
+     "2 x HDMI (Supports FHD@165Hz as specified in HDMI 2.0)\n1 x DP (Supports FHD@170Hz as specified in D…"
+    ],
+    [
+     "headphone",
+     "1 x Earphone out"
+    ],
+    [
+     "power_supply",
+     "100 - 240 VAC, 50/60Hz\nExternal Adaptor 12V 3A"
+    ],
+    [
+     "power_consumption",
+     "n/a"
+    ],
+    [
+     "stand_adjustments",
+     "Height: 0 ~ 130mm\nSwivel: -45° ~ 45°\nTilt: -5° ~ 20°\nPivot: -90° ~ 90°"
+    ],
+    [
+     "built_in_speakers",
+     "n/a"
+    ],
+    [
+     "vesa_compatibility_mountable",
+     "75 x 75mm"
+    ],
+    [
+     "dimensions",
+     "20.94\" x 24.15\" x 7.74\" w/ stand\n14.27\" x 24.15\" x 2.75\" w/o stand"
+    ],
+    [
+     "weight",
+     "13.12 lbs. w/ stand\n8.71 lbs. w/o stand"
+    ],
+    [
+     "date_first_available",
+     "2022-05-04"
+    ]
+   ]
+  },
+  {
    "type": "Keyboard",
    "id": 1,
    "category": "Keyboards",
@@ -5239,6 +8627,228 @@
    ]
   },
   {
+   "type": "Keyboard",
+   "id": 4,
+   "category": "Keyboards",
+   "category_id": 19,
+   "title": "SteelSeries Apex Pro TKL",
+   "name": "SteelSeries Apex Pro TKL HyperMagnetic Gaming Keyboard - World's Fastest Keyboard - Adjustable Actuation - Esports Tenkeyless - OLED Screen - RGB - PBT Keycaps - USB-C - 2023 Edition,Black",
+   "price": "283.99",
+   "discount": "25.00",
+   "discounted_units": 17,
+   "stock_quantity": 33,
+   "units_sold": 0,
+   "images": [
+    "product_images/32N-001D-000J1-10.webp",
+    "product_images/32N-001D-000J1-09.webp",
+    "product_images/32N-001D-000J1-08.webp",
+    "product_images/32N-001D-000J1-07.webp",
+    "product_images/32N-001D-000J1-06.webp",
+    "product_images/32N-001D-000J1-05.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "SteelSeries Apex Pro TKL HyperMagnetic Gaming Keyboard - World's Fastest Keyboard - Adjustable Actuation - Esports Tenkeyless - OLED Screen - RGB - PBT Keycaps - USB-C - 2023 Edition,Black"
+    ],
+    [
+     "title",
+     "SteelSeries Apex Pro TKL"
+    ],
+    [
+     "description",
+     "FULLY CUSTOMIZABLE & STUPIDLY FAST with OmniPoint 2.0 Adjustable HyperMagnetic switches\r\nWORLD’S FASTEST KEYBOARD — 20x faster actuation, 11x faster response than traditional mechanical keyboards\r\nRAPID TRIGGER — Eradicate latency arising from the physical movement of the switch through dynamic activation and deactivation of keys based on travel distance rather than a fixed point in the key travel.\r\nULTIMATE CONTROL — 40 levels of per-key actuation (0.1 – 4.0mm) – set WASD for light, ultra-fast movements and set ability keys to deep presses to avoid accidentally triggering specials\r\n2-IN-1 ACTION KEYS — Program two different actions to the same key, such as walking with a light touch or sprinting with a deep press\r\nEsports-ready TKL form factor. Full-size functionality. Premium aluminum top plate. Detachable USB-C."
+    ],
+    [
+     "brand",
+     "SteelSeries"
+    ],
+    [
+     "model",
+     "Apex Pro TKL HyperMagnetic"
+    ],
+    [
+     "part_number",
+     "64856"
+    ],
+    [
+     "keyboard_interface",
+     "USB Type-C"
+    ],
+    [
+     "design_style",
+     "Gaming"
+    ],
+    [
+     "palm_rest",
+     "n/a"
+    ],
+    [
+     "normal_keys",
+     "104"
+    ],
+    [
+     "function_keys",
+     "n/a"
+    ],
+    [
+     "mechanical_keyboard",
+     "n/a"
+    ],
+    [
+     "key_switch_type",
+     "OmniPoint 2.0"
+    ],
+    [
+     "keyboard_color",
+     "Black"
+    ],
+    [
+     "backlit",
+     "RGB"
+    ],
+    [
+     "dimensions",
+     "n/a"
+    ],
+    [
+     "tipe",
+     "n/a"
+    ],
+    [
+     "mouse_included",
+     "n/a"
+    ],
+    [
+     "operating_system_supported",
+     "n/a"
+    ],
+    [
+     "system_requirement",
+     "n/a"
+    ],
+    [
+     "features",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2024-05-10"
+    ]
+   ]
+  },
+  {
+   "type": "Keyboard",
+   "id": 5,
+   "category": "Keyboards",
+   "category_id": 19,
+   "title": "HyperX Alloy Origins",
+   "name": "HyperX Alloy Origins - Mechanical Gaming Keyboard - HX Red - US Layout",
+   "price": "108.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 489,
+   "units_sold": 254,
+   "images": [
+    "product_images/AR0TD2112180K94SPF8.webp",
+    "product_images/A47JS220121kvfhr.webp",
+    "product_images/A47JS220121aB6M4.webp",
+    "product_images/V1DSD2305230Y9JHOA9.webp",
+    "product_images/A0ZXD2202020PWK2B27.webp",
+    "product_images/A0ZXD2202030REP2W27.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "HyperX Alloy Origins - Mechanical Gaming Keyboard - HX Red - US Layout"
+    ],
+    [
+     "title",
+     "HyperX Alloy Origins"
+    ],
+    [
+     "description",
+     "HyperX Alloy Origins - Mechanical Gaming Keyboard - HX Red - US Layout"
+    ],
+    [
+     "brand",
+     "HyperX"
+    ],
+    [
+     "model",
+     "4P4F6AA#ABA"
+    ],
+    [
+     "part_number",
+     "4P4F6AA#ABA"
+    ],
+    [
+     "keyboard_interface",
+     "n/a"
+    ],
+    [
+     "design_style",
+     "n/a"
+    ],
+    [
+     "palm_rest",
+     "n/a"
+    ],
+    [
+     "normal_keys",
+     "n/a"
+    ],
+    [
+     "function_keys",
+     "n/a"
+    ],
+    [
+     "mechanical_keyboard",
+     "n/a"
+    ],
+    [
+     "key_switch_type",
+     "HyperX Switch"
+    ],
+    [
+     "keyboard_color",
+     "Black"
+    ],
+    [
+     "backlit",
+     "n/a"
+    ],
+    [
+     "dimensions",
+     "17.42 x 5.21 x 1.43 Inches"
+    ],
+    [
+     "tipe",
+     "Wired"
+    ],
+    [
+     "mouse_included",
+     "n/a"
+    ],
+    [
+     "operating_system_supported",
+     "n/a"
+    ],
+    [
+     "system_requirement",
+     "n/a"
+    ],
+    [
+     "features",
+     "HyperX Alloy Origins - Mechanical Gaming Keyboard - HX Red (US Layout)"
+    ],
+    [
+     "date_first_available",
+     "2022-02-14"
+    ]
+   ]
+  },
+  {
    "type": "Headset",
    "id": 1,
    "category": "Headsets",
@@ -5548,6 +9158,212 @@
    ]
   },
   {
+   "type": "Headset",
+   "id": 4,
+   "category": "Headsets",
+   "category_id": 20,
+   "title": "Razer BlackShark V2 X",
+   "name": "Razer BlackShark V2 X Gaming Headset: 7.1 Surround Sound - 50mm Drivers - Memory Foam Cushion - for PC, PS4, PS5, Switch, Xbox One, Xbox Series X|S, Mobile - 3.5mm Audio Jack  Green",
+   "price": "62.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 97,
+   "units_sold": 0,
+   "images": [
+    "product_images/A4RES230503T1c5L.webp",
+    "product_images/A4RES230503svpI1.webp",
+    "product_images/A4RES230503X7BlU.webp",
+    "product_images/A4RES230503oAV7F.webp",
+    "product_images/A4RES230503M7fCt.webp",
+    "product_images/A4RES230503u5oov.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "Razer BlackShark V2 X Gaming Headset: 7.1 Surround Sound - 50mm Drivers - Memory Foam Cushion - for PC, PS4, PS5, Switch, Xbox One, Xbox Series X|S, Mobile - 3.5mm Audio Jack  Green"
+    ],
+    [
+     "title",
+     "Razer BlackShark V2 X"
+    ],
+    [
+     "description",
+     "Advanced Passive Noise Cancellation: sturdy closed earcups fully cover ears to prevent noise from leaking into the headset, with its cushions providing a closer seal for more sound isolation.\n7.1 Surround Sound for Positional Audio: Outfitted with custom-tuned 50 mm drivers, capable of software-enabled surround sound. *Only available on Windows 10 64bit\nTriforce Titanium 50mm High-End Sound Drivers: With titanium-coated diaphragms for added clarity, our new, cutting-edge proprietary design divides the driver into 3 parts for the individual tuning of highs, mids, and lowsproducing brighter, clearer audio with richer highs and more powerful lows"
+    ],
+    [
+     "brand",
+     "Razer"
+    ],
+    [
+     "model",
+     "RZ04-03240100-R3U1"
+    ],
+    [
+     "compatibility",
+     "n/a"
+    ],
+    [
+     "color",
+     "Green"
+    ],
+    [
+     "led",
+     "n/a"
+    ],
+    [
+     "connection_type",
+     "n/a"
+    ],
+    [
+     "connector",
+     "3.5mm"
+    ],
+    [
+     "audio_type",
+     "n/a"
+    ],
+    [
+     "driver_unit",
+     "n/a"
+    ],
+    [
+     "headphone_frequency_response",
+     "n/a"
+    ],
+    [
+     "headphone_input_impedance",
+     "32 ohms (1 kHz)"
+    ],
+    [
+     "headphone_sensitivity",
+     "100dB S.P.L. at 1KHz"
+    ],
+    [
+     "ear_coupling",
+     "n/a"
+    ],
+    [
+     "microphone_impedance",
+     "32 ? (1 kHz)"
+    ],
+    [
+     "microphone_frequency_response",
+     "100 Hz – 10 kHz"
+    ],
+    [
+     "microphone_sensitivity",
+     "-42 dB V/Pa, 1 kHz"
+    ],
+    [
+     "date_first_available",
+     "2023-05-03"
+    ]
+   ]
+  },
+  {
+   "type": "Headset",
+   "id": 5,
+   "category": "Headsets",
+   "category_id": 20,
+   "title": "CORSAIR HS80 RGB Wireless",
+   "name": "Corsair HS80 RGB Wireless Gaming Headset, Dolby Atmos Spatial Audio, Low Latency Wireless, Broadcast-Grade Mic, PC/PS5",
+   "price": "119.99",
+   "discount": "25.00",
+   "discounted_units": 19,
+   "stock_quantity": 38,
+   "units_sold": 0,
+   "images": [
+    "product_images/26-816-177-S01.webp",
+    "product_images/26-816-177-12.webp",
+    "product_images/26-816-177-11.webp",
+    "product_images/26-816-177-10.webp",
+    "product_images/26-816-177-09.webp",
+    "product_images/26-816-177-08.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "Corsair HS80 RGB Wireless Gaming Headset, Dolby Atmos Spatial Audio, Low Latency Wireless, Broadcast-Grade Mic, PC/PS5"
+    ],
+    [
+     "title",
+     "CORSAIR HS80 RGB Wireless"
+    ],
+    [
+     "description",
+     "Live the game in a headset that merges iconic CORSAIR design, superb audio quality, industry-leading wireless technology, and durable build quality.\r\nConnect with hyper-fast SLIPSTREAM WIRELESS for extremely low-latency, high-quality audio, so you hear every shot, step, and shout as it happens.\r\nImmersive Dolby Atmos on PC places the sounds of the game all around you with three-dimensional precision, so you can react faster and more accurately.\r\nFrom a faint whisper to a resonating blast, a pair of custom-tuned 50mm high-density neodymium audio drivers catch every sound in exquisite detail with an expanded frequency range of 20Hz-40,000Hz.\r\nA broadcast-grade omni-directional microphone captures your voice with terrific clarity, with a flip-up mute function and a built-in LED mute indicator.\r\nEnjoy hours of long-lasting, plush comfort thanks to memory foam earpads with breathable cloth fabric and a stress-free floating headband design."
+    ],
+    [
+     "brand",
+     "Corsair"
+    ],
+    [
+     "model",
+     "CA-9011235-NA"
+    ],
+    [
+     "compatibility",
+     "PC / PlayStation 4 / PlayStation 5"
+    ],
+    [
+     "color",
+     "Carbon"
+    ],
+    [
+     "led",
+     "RGB"
+    ],
+    [
+     "connection_type",
+     "Wired / Wireless"
+    ],
+    [
+     "connector",
+     "USB"
+    ],
+    [
+     "audio_type",
+     "n/a"
+    ],
+    [
+     "driver_unit",
+     "Custom 50mm Neodymium"
+    ],
+    [
+     "headphone_frequency_response",
+     "20Hz-40KHz"
+    ],
+    [
+     "headphone_input_impedance",
+     "32 ohm"
+    ],
+    [
+     "headphone_sensitivity",
+     "116 dB (+/- 3 dB)"
+    ],
+    [
+     "ear_coupling",
+     "Circumaural"
+    ],
+    [
+     "microphone_impedance",
+     "~2.2K ohm"
+    ],
+    [
+     "microphone_frequency_response",
+     "100Hz-10KHz"
+    ],
+    [
+     "microphone_sensitivity",
+     "-40 dB (+/- 2 dB)"
+    ],
+    [
+     "date_first_available",
+     "2021-08-16"
+    ]
+   ]
+  },
+  {
    "type": "Mouse",
    "id": 1,
    "category": "Mouses",
@@ -5809,6 +9625,180 @@
    ]
   },
   {
+   "type": "Mouse",
+   "id": 4,
+   "category": "Mouses",
+   "category_id": 21,
+   "title": "Logitech G305 LIGHTSPEED",
+   "name": "G305",
+   "price": "35.99",
+   "discount": "20.00",
+   "discounted_units": 38,
+   "stock_quantity": 597,
+   "units_sold": 277,
+   "images": [
+    "product_images/26-197-308-01.webp",
+    "product_images/26-197-308-02.webp",
+    "product_images/26-197-308-03.webp",
+    "product_images/26-197-308-04.webp",
+    "product_images/26-197-308-05.webp",
+    "product_images/26-197-308-06.webp"
+   ],
+   "details": [
+    [
+     "title",
+     "Logitech G305 LIGHTSPEED"
+    ],
+    [
+     "description",
+     "HERO sensor on this PC gaming mouse delivers exceptional accuracy and responsiveness with tracking at over 400 IPS speed and up to 12,000 DPI sensitivity.\r\nUltra-fast LIGHTSPEED wireless technology delivers a lag-free gaming experience with incredible responsiveness and reliability with 1 kHz report rate \r\nGet up to 250 hours of continuous gameplay on one AA battery \r\nWeighing in at 99 grams, the lightweight G305 symmetric mouse features a low profile and rounded back for a comfortable grip and agile control for various playstyles \r\nDurable, compact, portable design with built-in USB receiver storage\r\nG305 can store up to 5 DPI levels into the onboard memory and up to 6 programmable buttons for full customization via Logitech G HUB\r\nMechanical button tensioning improve consistency, reduce click force, and deliver crisp, reliable performance"
+    ],
+    [
+     "brand",
+     "Logitech"
+    ],
+    [
+     "name",
+     "G305"
+    ],
+    [
+     "model",
+     "910-005280"
+    ],
+    [
+     "part_number",
+     "n/a"
+    ],
+    [
+     "interface",
+     "n/a"
+    ],
+    [
+     "wired",
+     "Lightspeed Wireless"
+    ],
+    [
+     "mouse_grip_style",
+     "n/a"
+    ],
+    [
+     "tracking_method",
+     "HERO"
+    ],
+    [
+     "maximum_dpi",
+     "12000 dpi"
+    ],
+    [
+     "hand_orientation",
+     "n/a"
+    ],
+    [
+     "buttons",
+     "6"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "package_contents",
+     "G305 Gaming Mouse\nLIGHTSPEED USB receiver\nUser documentation"
+    ],
+    [
+     "date_first_available",
+     "2026-09-21"
+    ]
+   ]
+  },
+  {
+   "type": "Mouse",
+   "id": 5,
+   "category": "Mouses",
+   "category_id": 21,
+   "title": "SteelSeries Rival 3",
+   "name": "Rival 3",
+   "price": "44.92",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 9,
+   "units_sold": 22,
+   "images": [
+    "product_images/26-249-247-V01.webp",
+    "product_images/26-249-247-V06.webp",
+    "product_images/26-249-247-V05.webp",
+    "product_images/26-249-247-V04.webp",
+    "product_images/26-249-247-V03.webp",
+    "product_images/26-249-247-V02.webp"
+   ],
+   "details": [
+    [
+     "title",
+     "SteelSeries Rival 3"
+    ],
+    [
+     "description",
+     "Hyper Durable Materials - Engineered with high-grade polymer for durability\r\n60 Million Click Mechanical Switches - Guaranteed to feel crisp from the first click to the last\r\nTrueMove Core Optical Gaming Sensor - True 1 to 1 tracking, 8,500 CPI, 300 IPS, 35G acceleration\r\nComfortable Ergonomic Construction - Ergonomically designed to provide comfort for intense gaming sessions\r\nBrilliant Prism Lighting - Redesigned lighting provides 3 zones of 16.8 million beautifully crisp colors\r\nOn-Board Memory: Save polling rate, keybinds, and up to 5 CPIs directly on the mouse\r\nCustomizable Lighting Effects - Create complex lightshows or keep up to date with Discord notifications"
+    ],
+    [
+     "brand",
+     "SteelSeries"
+    ],
+    [
+     "name",
+     "Rival 3"
+    ],
+    [
+     "model",
+     ""
+    ],
+    [
+     "part_number",
+     "62513"
+    ],
+    [
+     "interface",
+     "USB"
+    ],
+    [
+     "wired",
+     "Wired"
+    ],
+    [
+     "mouse_grip_style",
+     "Claw / Fingertip"
+    ],
+    [
+     "tracking_method",
+     "Optical"
+    ],
+    [
+     "maximum_dpi",
+     "18000 dpi"
+    ],
+    [
+     "hand_orientation",
+     "Right Hand"
+    ],
+    [
+     "buttons",
+     "6"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "package_contents",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2026-08-13"
+    ]
+   ]
+  },
+  {
    "type": "WebCam",
    "id": 1,
    "category": "Web Cams",
@@ -6065,6 +10055,180 @@
     [
      "date_first_available",
      "2018-12-29"
+    ]
+   ]
+  },
+  {
+   "type": "WebCam",
+   "id": 4,
+   "category": "Web Cams",
+   "category_id": 22,
+   "title": "Logitech C922 Pro Stream",
+   "name": "Logitech C922 Pro Stream Webcam 1080P Camera for HD Video Streaming & Recording 720P at 60Fps with Tripod Included",
+   "price": "75.99",
+   "discount": "5.00",
+   "discounted_units": 13,
+   "stock_quantity": 262,
+   "units_sold": 56,
+   "images": [
+    "product_images/AEX0D210518LMAW0.webp",
+    "product_images/1EF-000C-001H1-01.webp",
+    "product_images/1EF-000C-001H1-14.webp",
+    "product_images/1EF-000C-001H1-08.webp",
+    "product_images/1EF-000C-001H1-10.webp",
+    "product_images/1EF-000C-001H1-11.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "Logitech C922 Pro Stream Webcam 1080P Camera for HD Video Streaming & Recording 720P at 60Fps with Tripod Included"
+    ],
+    [
+     "title",
+     "Logitech C922 Pro Stream"
+    ],
+    [
+     "description",
+     "Deliver premium Full HD video quality every time you stream, ensuring your content is always sharp and vibrant\r\nStream smoothly with 1080p/30fps and 720p/60fps, ensuring no lag or distortion in your broadcasts\r\nIdeal for new streamers, auto light correction keeps your HD video sharp in any light\r\nBuilt-in dual mics capture stereo sound from every angle, ensuring clear audio at all times\r\nThe universal mount fits any monitor, and the adjustable tripod lets you explore dynamic streaming angles\r\nCustomize your streaming image effortlessly with Logi Options+App*, to suit your style\r\n*Available for recent versions of Windows and macOS at app.logi.com"
+    ],
+    [
+     "brand",
+     "Logitech"
+    ],
+    [
+     "model",
+     "C922Pro"
+    ],
+    [
+     "part_number",
+     "n/a"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "interface",
+     "USB"
+    ],
+    [
+     "video_capture_resolution",
+     "n/a"
+    ],
+    [
+     "frame_rate",
+     "Full HD 1080p/30fps \nHD 720p/60fps"
+    ],
+    [
+     "focus_settings",
+     "n/a"
+    ],
+    [
+     "operating_systems_supported",
+     "n/a"
+    ],
+    [
+     "platform_compatibility",
+     "n/a"
+    ],
+    [
+     "features",
+     "Sold as 1 Each."
+    ],
+    [
+     "package_contents",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2026-08-06"
+    ]
+   ]
+  },
+  {
+   "type": "WebCam",
+   "id": 5,
+   "category": "Web Cams",
+   "category_id": 22,
+   "title": "Logitech Brio 500",
+   "name": "Logitech Brio 500 Full HD Webcam with Auto Light Correction,Show Mode, Dual Noise Reduction Mics, Webcam Privacy Cover, Works with Microsoft Teams, Google Meet, Zoom, USB-C Cable - Off White",
+   "price": "119.79",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 87,
+   "units_sold": 47,
+   "images": [
+    "product_images/26-197-570-11.webp",
+    "product_images/26-197-570-12.webp",
+    "product_images/26-197-570-15.webp",
+    "product_images/26-197-570-14.webp",
+    "product_images/26-197-570-17.webp",
+    "product_images/26-197-570-13.webp"
+   ],
+   "details": [
+    [
+     "name",
+     "Logitech Brio 500 Full HD Webcam with Auto Light Correction,Show Mode, Dual Noise Reduction Mics, Webcam Privacy Cover, Works with Microsoft Teams, Google Meet, Zoom, USB-C Cable - Off White"
+    ],
+    [
+     "title",
+     "Logitech Brio 500"
+    ],
+    [
+     "description",
+     "Advanced Image Quality: Full HD 1080p webcam resolution provides outstanding image quality so everyone can see you clearly during meetings\r\nAuto Light Correction (RightLight 4): RightLight 4 video lighting technology automatically adjusts to the lighting in your environment, so you can be seen clearly even in low light\r\nAuto-Framing (RightSight): Auto-framing (1)(3) centers the video camera on you, allowing you to stand and move during meetings without leaving the frame\r\nShow Mode: Present your work or other objects on your desk with Show Mode, which lets you tilt the web camera up or down with one hand\r\nDual Noise Reduction Microphones: Be heard clearly in noisy environments thanks to noise canceling mics that filter out background sound during calls\r\nWebcam with Privacy Cover: To protect your privacy between meetings, simply rotate the integrated webcam privacy shutter to completely block the camera"
+    ],
+    [
+     "brand",
+     "Logitech"
+    ],
+    [
+     "model",
+     "960-001427"
+    ],
+    [
+     "part_number",
+     "n/a"
+    ],
+    [
+     "color",
+     "Off White"
+    ],
+    [
+     "interface",
+     "USB-C plug-and-play"
+    ],
+    [
+     "video_capture_resolution",
+     "1920 x 1080"
+    ],
+    [
+     "frame_rate",
+     "1080p/30fps (1920x1080 pixels)\n720p/60fps (1280x720 pixels)"
+    ],
+    [
+     "focus_settings",
+     "Autofocus"
+    ],
+    [
+     "operating_systems_supported",
+     "n/a"
+    ],
+    [
+     "platform_compatibility",
+     "n/a"
+    ],
+    [
+     "features",
+     "n/a"
+    ],
+    [
+     "package_contents",
+     "Brio 500 with attached USB-C cable\nMount clip with removable mount adapter\nUser documentation"
+    ],
+    [
+     "date_first_available",
+     "2026-09-16"
     ]
    ]
   }

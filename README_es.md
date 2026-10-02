@@ -170,7 +170,7 @@ El proyecto utiliza una arquitectura modular donde las categorías de producto e
 
 El repositorio incluye una base de datos SQLite (`db.sqlite3`) con datos de ejemplo. En la revisión realizada, la base de datos contiene usuarios, categorías, imágenes de productos, pedidos, wishlists, direcciones de envío y productos de muestra.
 
-El catálogo tiene 49 productos y todas las categorías tienen productos: CPUs, cajas, fuentes de alimentación, ventiladores, RAM, placas base, tarjetas gráficas, disipadores por aire y refrigeración líquida, tarjetas de sonido, discos duros, SSD, monitores, teclados, auriculares, ratones y webcams. Las especificaciones, imágenes y precios proceden de las fichas de Newegg (precios de octubre de 2026); el stock, las unidades vendidas y los descuentos son valores de ejemplo. Las imágenes de productos están en el directorio `media/`, mientras que las capturas del proyecto están en `img/`.
+El catálogo tiene 83 productos (entre 3 y 6 por categoría): CPUs, cajas, fuentes de alimentación, ventiladores, RAM, placas base, tarjetas gráficas, disipadores por aire y refrigeración líquida, tarjetas de sonido, discos duros, SSD, monitores, teclados, auriculares, ratones y webcams. Las especificaciones, imágenes y precios proceden de las fichas de Newegg (precios de octubre de 2026); el stock, las unidades vendidas y los descuentos son valores de ejemplo. Las imágenes de productos están en el directorio `media/`, mientras que las capturas del proyecto están en `img/`.
 
 ## Tecnologías utilizadas
 
