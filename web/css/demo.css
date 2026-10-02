@@ -57,6 +57,23 @@
     width: auto;
 }
 
+/* store-coloured button (the yellow of the DUCKYWARE title) */
+.btn-duckyware {
+    background-color: #F7FF40;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: bold;
+    min-width: 90px;
+}
+
+.btn-duckyware:hover,
+.btn-duckyware:focus-visible,
+.btn-duckyware:active {
+    background-color: #e8f000;
+    border-color: #000;
+    color: #000;
+}
+
 .demo-modal-footer {
     flex-wrap: wrap;
     gap: 8px;

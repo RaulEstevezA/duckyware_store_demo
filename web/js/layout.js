@@ -5,7 +5,7 @@ import * as backend from './backend.js';
 import { html, money, url } from './html.js';
 
 const ORIGINAL_REPO = 'https://github.com/RaulEstevezA/Duckyware_Store';
-const DEMO_REPO = 'https://github.com/RaulEstevezA/duckyware_store_demo';
+const DEMOS_PAGE = 'https://raulesteveza.github.io/demos/';
 const INTRO_SEEN_KEY = 'duckyware-demo-intro-seen';
 
 // The original template renders three levels; the README promises up to six
@@ -110,8 +110,9 @@ function demoModal() {
                     </div>
                     <div class="modal-footer demo-modal-footer">
                         <a class="btn btn-outline-secondary" href="${ORIGINAL_REPO}" target="_blank" rel="noopener">Original Django project</a>
-                        <a class="btn btn-outline-secondary" href="${DEMO_REPO}" target="_blank" rel="noopener">Demo source code</a>
+                        <a class="btn btn-outline-secondary" href="${DEMOS_PAGE}">Demos</a>
                         <button type="button" class="btn btn-outline-danger" id="resetDemoButton">Reset demo data</button>
+                        <button type="button" class="btn btn-duckyware" data-bs-dismiss="modal">OK</button>
                     </div>
                 </div>
             </div>
