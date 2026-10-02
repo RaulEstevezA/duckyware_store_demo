@@ -3,7 +3,7 @@
 // search.html and wishlist.html.
 
 import * as backend from '../backend.js';
-import { html, money, capfirst, formatDetailValue, url } from '../html.js';
+import { html, raw, money, capfirst, formatDetailValue, url } from '../html.js';
 
 function productUrl(product) {
     return url.product(product.category, product.id);
@@ -13,10 +13,11 @@ function productUrl(product) {
 export function home() {
     const { discounted, topSells, lastUnits } = backend.homeData();
 
-    const tile = product => html`
+    // lazy: only "Top Sales" is visible when the page opens
+    const tile = (product, lazy) => html`
         <div class="col">
             <a href="${productUrl(product)}" class="product-link">
-                <img src="${backend.getImage(product)}" class="d-block img-fluid" alt="${product.title}" style="max-height: 200px;">
+                <img src="${backend.getImage(product)}" class="d-block img-fluid" alt="${product.title}" style="max-height: 200px;" ${lazy ? raw('loading="lazy"') : ''}>
                 <p class="title-offert">${product.title}</p>
                 <p class="price-text">${money(product.price)} $</p>
             </a>
@@ -27,7 +28,7 @@ export function home() {
         <h1 class="home-title">TOP SALES</h1>
         <div class="container text-center">
             <div class="row align-items-start">
-                ${topSells.length ? topSells.map(tile) : html`<p>No top-selling products available.</p>`}
+                ${topSells.length ? topSells.map(p => tile(p, false)) : html`<p>No top-selling products available.</p>`}
             </div>
         </div>
 
@@ -41,7 +42,7 @@ export function home() {
                         <div class="row align-items-center">
                             <div class="col-md-6">
                                 <a href="${productUrl(product)}" class="product-link">
-                                    <img src="${backend.getImage(product)}" class="d-block img-fluid" alt="${product.title}" style="max-height: 200px;">
+                                    <img src="${backend.getImage(product)}" class="d-block img-fluid" alt="${product.title}" style="max-height: 200px;" ${i > 0 ? raw('loading="lazy"') : ''}>
                                 </a>
                             </div>
                             <div class="col-md-6">
@@ -69,7 +70,7 @@ export function home() {
         <h1 class="home-title">LAST UNITS</h1>
         <div class="container text-center">
             <div class="row align-items-start">
-                ${lastUnits.length ? lastUnits.map(tile) : html`<p>No last unit products available.</p>`}
+                ${lastUnits.length ? lastUnits.map(p => tile(p, true)) : html`<p>No last unit products available.</p>`}
             </div>
         </div>`;
 
