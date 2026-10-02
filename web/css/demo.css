@@ -445,6 +445,22 @@
 }
 
 @media (max-width: 575.98px) {
+    /* home (Top Sales / Last Units): one product per row instead of 2 + 1 */
+    .home-title + .container .row > .col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 16px 28px;
+    }
+
+    .home-title + .container .row img {
+        max-height: 180px !important;
+    }
+
+    .home-title + .container .title-offert {
+        font-size: 1.25rem;
+        -webkit-line-clamp: 2;
+    }
+
     /* two product cards per row instead of one huge card */
     .row > .col-lg-3.col-md-4.col-sm-6 {
         width: 50%;
