@@ -1,0 +1,104 @@
+# Builds the static version of DuckyWare and publishes it in the demos section
+# of the personal website: https://raulesteveza.github.io/demos/Duckyware_Store/
+#
+# It is pushed to the RaulEstevezA/RaulEstevezA.github.io repository, which
+# GitHub Pages serves when it receives the push. Same mechanism as the
+# e-plantShopping and Cinema_App deployments: a token with write permission
+# (Contents: Read and write) on RaulEstevezA.github.io, stored in this
+# repository as the Actions secret PORTFOLIO_DEPLOY_TOKEN.
+
+name: Deploy demo
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - 'store/static/**'
+      - 'media/**'
+      - 'tools/build_site.py'
+      - '.github/workflows/deploy-demo.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-duckyware-demo
+  cancel-in-progress: false
+
+env:
+  SITE_REPOSITORY: RaulEstevezA/RaulEstevezA.github.io
+  DEMO_PATH: demos/Duckyware_Store
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check deploy token
+        env:
+          PORTFOLIO_DEPLOY_TOKEN: ${{ secrets.PORTFOLIO_DEPLOY_TOKEN }}
+        run: |
+          if [ -z "$PORTFOLIO_DEPLOY_TOKEN" ]; then
+            echo "::error::Missing PORTFOLIO_DEPLOY_TOKEN secret (Settings → Secrets and variables → Actions)."
+            exit 1
+          fi
+
+      - name: Checkout demo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Check JavaScript syntax
+        run: |
+          for file in web/js/*.js web/js/views/*.js; do
+            node --check "$file"
+          done
+
+      - name: Build static site
+        run: python tools/build_site.py
+
+      - name: Checkout site
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SITE_REPOSITORY }}
+          ref: main
+          token: ${{ secrets.PORTFOLIO_DEPLOY_TOKEN }}
+          path: site
+
+      - name: Copy build into site
+        run: |
+          mkdir -p "site/${DEMO_PATH}"
+          rsync -a --delete dist/ "site/${DEMO_PATH}/"
+
+      - name: Commit and push changes
+        working-directory: site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "${DEMO_PATH}/"
+
+          if git diff --cached --quiet; then
+            echo "The demo has not changed; nothing to commit."
+            exit 0
+          fi
+
+          git commit -m "Deploy DuckyWare demo"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            if [ "$attempt" -lt 3 ]; then
+              echo "Push attempt $attempt failed; retrying after updating main."
+              sleep 5
+            fi
+          done
+
+          echo "Unable to push the deployment after 3 attempts."
+          exit 1

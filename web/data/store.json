@@ -1,0 +1,1441 @@
+{
+ "source": "Exported from db.sqlite3 by tools/export_data.py",
+ "categories": [
+  {
+   "id": 1,
+   "name": "Components",
+   "parent": null
+  },
+  {
+   "id": 2,
+   "name": "Peripherals",
+   "parent": null
+  },
+  {
+   "id": 3,
+   "name": "RAM",
+   "parent": 1
+  },
+  {
+   "id": 4,
+   "name": "Motherboards",
+   "parent": 1
+  },
+  {
+   "id": 5,
+   "name": "CPUs",
+   "parent": 1
+  },
+  {
+   "id": 6,
+   "name": "Graphics Cards",
+   "parent": 1
+  },
+  {
+   "id": 7,
+   "name": "Computer Cases",
+   "parent": 1
+  },
+  {
+   "id": 8,
+   "name": "Power Supplies",
+   "parent": 1
+  },
+  {
+   "id": 9,
+   "name": "CPU Air Cooler",
+   "parent": 11
+  },
+  {
+   "id": 10,
+   "name": "CPU Liquid Cooler",
+   "parent": 11
+  },
+  {
+   "id": 11,
+   "name": "Cooling",
+   "parent": 1
+  },
+  {
+   "id": 12,
+   "name": "Case Fans",
+   "parent": 11
+  },
+  {
+   "id": 14,
+   "name": "Sound Card",
+   "parent": 1
+  },
+  {
+   "id": 15,
+   "name": "Storage",
+   "parent": 1
+  },
+  {
+   "id": 16,
+   "name": "Hard Drive",
+   "parent": 15
+  },
+  {
+   "id": 17,
+   "name": "SSD",
+   "parent": 15
+  },
+  {
+   "id": 18,
+   "name": "Monitors",
+   "parent": 2
+  },
+  {
+   "id": 19,
+   "name": "Keyboards",
+   "parent": 2
+  },
+  {
+   "id": 20,
+   "name": "Headsets",
+   "parent": 2
+  },
+  {
+   "id": 21,
+   "name": "Mouses",
+   "parent": 2
+  },
+  {
+   "id": 22,
+   "name": "Web Cams",
+   "parent": 2
+  }
+ ],
+ "products": [
+  {
+   "type": "CPU",
+   "id": 1,
+   "category": "CPUs",
+   "category_id": 5,
+   "title": "Intel Core i9-12900KF",
+   "name": "Core i9-12900KF",
+   "price": "534.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 108,
+   "units_sold": 34,
+   "images": [
+    "product_images/19-118-341-07.jpg",
+    "product_images/19-118-341-05.jpg",
+    "product_images/19-118-341-08.jpg",
+    "product_images/19-118-341-06.jpg"
+   ],
+   "details": [
+    [
+     "title",
+     "Intel Core i9-12900KF"
+    ],
+    [
+     "description",
+     "12th Gen Intel® Core™ i9-12900KF desktop processor\r\nBuilt for the next generation of gaming.\r\n\r\nRevolutionary performance and multitasking.\r\nWith the highest clock speeds and a groundbreaking new architecture, you’ll be able to push your gameplay to new heights while secondary apps run seamlessly in the background.\r\nUp to\r\n5.2 GHz Max Clock Speed1\r\n16 Cores\r\n8 Performance-cores\r\n8 Efficient-cores\r\n24 Threads\r\n16 on Performance-cores\r\n8 on Efficient-cores\r\nUnlocked and overclockable2\r\nSingle P-core Max/Base Clock Speed: 5.2/3.2 GHz\r\nSingle E-core Max/Base Clock Speed: 3.9/2.4 GHz\r\nIntel® Turbo Boost Max Technology 3.0\r\nProcessor base power: 125W\r\nIntel® Smart Cache: 30MB\r\nMotherboard compatibility: 600 series3\r\nTotal CPU PCIe lanes: 20\r\nMemory speed: DDR5\r\nDiscrete graphics card required\r\n\r\nDivide and conquer.\r\nIntel’s new performance hybrid architecture integrates two core families into a single CPU, keeping everything in your gaming universe running smoothly.\r\nIntel® Thread Director\r\nPrioritizes and manages workloads, sending tasks to the best core for the job.4\r\n\r\n8 Performance-cores\r\nP-cores are built for performance across single and lightly-threaded workloads, enhancing activities like gaming and productivity.\r\n8 Efficient-cores\r\nE-cores are optimized for multi‑threaded performance, minimizing interruptions from secondary tasks.\r\nPerformance beyond the cores.\r\nThe new processor architecture is also compatible with the latest platform innovations, giving you performance improvements throughout your PC.\r\n\r\nReady for what’s next\r\nSupport for PCIe Gen 5 and DDR5 for high-performance components like memory and graphics.\r\nBest-in-class connectivity\r\nThunderbolt™ 4 technology and Intel® Killer™ Wi-Fi 6/6E (Gig+) deliver fast transfer speeds and connections to peripherals.5\r\nStreamlined overclocking\r\nSeparate overclocking controls for both types of cores gives you nuanced personalization."
+    ],
+    [
+     "brand",
+     "Intel"
+    ],
+    [
+     "processor_type",
+     "Desktop"
+    ],
+    [
+     "series",
+     "Core i9 12th Gen"
+    ],
+    [
+     "name",
+     "Core i9-12900KF"
+    ],
+    [
+     "model",
+     "BX8071512900KF"
+    ],
+    [
+     "cpu_socket_type",
+     "LGA 1700"
+    ],
+    [
+     "core_name",
+     "Alder Lake"
+    ],
+    [
+     "number_of_cores",
+     "16-Core (8P+8E)"
+    ],
+    [
+     "number_of_threads",
+     "24-Threads"
+    ],
+    [
+     "operating_frequency",
+     "n/aP-core Base Frequency: 3.2 GHz E-core Base Frequency: 2.4 GHz"
+    ],
+    [
+     "max_turbo_frequenvy",
+     "Intel Turbo Boost Max Technology 3.0 Frequency: Up to 5.2 GHz Single P-core Turbo Frequency: Up to 5.1 GHz Single E-core Turbo Frequency: Up to 3.9 GHz"
+    ],
+    [
+     "l2_cache",
+     "14MB"
+    ],
+    [
+     "l3_cache",
+     "30MB"
+    ],
+    [
+     "manufacturing_tech",
+     "Intel 7"
+    ],
+    [
+     "support_64_bit",
+     "Yes"
+    ],
+    [
+     "hyper_threading_support",
+     "Yes"
+    ],
+    [
+     "memory_types",
+     "DDR4 3200 / DDR5 4800"
+    ],
+    [
+     "memory_channel",
+     "2"
+    ],
+    [
+     "max_memory_size",
+     "128 GB"
+    ],
+    [
+     "max_memory_bandwidth",
+     "76.8 GB/s"
+    ],
+    [
+     "virtualization_technology_support",
+     "Yes"
+    ],
+    [
+     "integrated_graphics",
+     "None Integrated Graphics"
+    ],
+    [
+     "pci_express_revision",
+     "5.0 / 4.0 / 3.0"
+    ],
+    [
+     "max_number_pci_lanes",
+     "20"
+    ],
+    [
+     "thermal_design_power",
+     "Processor Base Power: 125W Maximum Turbo Power: 241W"
+    ],
+    [
+     "cooling_device",
+     "Cooling device not included - Processor Only"
+    ],
+    [
+     "operating_system_supported",
+     "Windows 11"
+    ],
+    [
+     "date_first_available",
+     "2021-10-08"
+    ]
+   ]
+  },
+  {
+   "type": "CPU",
+   "id": 2,
+   "category": "CPUs",
+   "category_id": 5,
+   "title": "AMD Ryzen 9 7900X",
+   "name": "Ryzen 9 7900X",
+   "price": "423.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 61,
+   "units_sold": 3,
+   "images": [
+    "product_images/19-113-769-03.jpg",
+    "product_images/19-113-769-02.jpg"
+   ],
+   "details": [
+    [
+     "title",
+     "AMD Ryzen 9 7900X"
+    ],
+    [
+     "description",
+     ""
+    ],
+    [
+     "brand",
+     "AMD"
+    ],
+    [
+     "processor_type",
+     "Desktop"
+    ],
+    [
+     "series",
+     "Ryzen 9 7000 Series"
+    ],
+    [
+     "name",
+     "Ryzen 9 7900X"
+    ],
+    [
+     "model",
+     "100-100000589WOF"
+    ],
+    [
+     "cpu_socket_type",
+     "Socket AM5"
+    ],
+    [
+     "core_name",
+     "n/a"
+    ],
+    [
+     "number_of_cores",
+     "12-Core"
+    ],
+    [
+     "number_of_threads",
+     "24-Threads"
+    ],
+    [
+     "operating_frequency",
+     "4.7 GHz"
+    ],
+    [
+     "max_turbo_frequenvy",
+     "Up to 5.6 GHz"
+    ],
+    [
+     "l2_cache",
+     "12MB"
+    ],
+    [
+     "l3_cache",
+     "64MB"
+    ],
+    [
+     "manufacturing_tech",
+     "5nm"
+    ],
+    [
+     "support_64_bit",
+     "Yes"
+    ],
+    [
+     "hyper_threading_support",
+     "No"
+    ],
+    [
+     "memory_types",
+     "DDR5 5200"
+    ],
+    [
+     "memory_channel",
+     "2"
+    ],
+    [
+     "max_memory_size",
+     "128 GB"
+    ],
+    [
+     "max_memory_bandwidth",
+     "n/a"
+    ],
+    [
+     "virtualization_technology_support",
+     "n/a"
+    ],
+    [
+     "integrated_graphics",
+     "AMD Radeon Graphics"
+    ],
+    [
+     "pci_express_revision",
+     "5.0 / 4.0 / 3.0"
+    ],
+    [
+     "max_number_pci_lanes",
+     "n/a"
+    ],
+    [
+     "thermal_design_power",
+     "170W"
+    ],
+    [
+     "cooling_device",
+     "Cooling device not included - Processor Only"
+    ],
+    [
+     "operating_system_supported",
+     "Windows 11"
+    ],
+    [
+     "date_first_available",
+     "2022-09-27"
+    ]
+   ]
+  },
+  {
+   "type": "CPU",
+   "id": 3,
+   "category": "CPUs",
+   "category_id": 5,
+   "title": "AMD Ryzen 5 7600",
+   "name": "Ryzen 5 7600",
+   "price": "199.00",
+   "discount": "5.00",
+   "discounted_units": 150,
+   "stock_quantity": 504,
+   "units_sold": 0,
+   "images": [
+    "product_images/19-113-787-02.png"
+   ],
+   "details": [
+    [
+     "title",
+     "AMD Ryzen 5 7600"
+    ],
+    [
+     "description",
+     ""
+    ],
+    [
+     "brand",
+     "AMD"
+    ],
+    [
+     "processor_type",
+     "Desktop"
+    ],
+    [
+     "series",
+     "Ryzen 5 7000 Series"
+    ],
+    [
+     "name",
+     "Ryzen 5 7600"
+    ],
+    [
+     "model",
+     "100-100001015BOX"
+    ],
+    [
+     "cpu_socket_type",
+     "Socket AM5"
+    ],
+    [
+     "core_name",
+     "n/a"
+    ],
+    [
+     "number_of_cores",
+     "6-Core"
+    ],
+    [
+     "number_of_threads",
+     "12-Threads"
+    ],
+    [
+     "operating_frequency",
+     "3.8 GHz"
+    ],
+    [
+     "max_turbo_frequenvy",
+     "Up to 5.1GHz"
+    ],
+    [
+     "l2_cache",
+     "6MB"
+    ],
+    [
+     "l3_cache",
+     "32MB"
+    ],
+    [
+     "manufacturing_tech",
+     "5nm"
+    ],
+    [
+     "support_64_bit",
+     "Yes"
+    ],
+    [
+     "hyper_threading_support",
+     "n/a"
+    ],
+    [
+     "memory_types",
+     "DDR5 5200"
+    ],
+    [
+     "memory_channel",
+     "2"
+    ],
+    [
+     "max_memory_size",
+     "n/a"
+    ],
+    [
+     "max_memory_bandwidth",
+     "n/a"
+    ],
+    [
+     "virtualization_technology_support",
+     "n/a"
+    ],
+    [
+     "integrated_graphics",
+     "AMD Radeon Graphics"
+    ],
+    [
+     "pci_express_revision",
+     "5.0 / 4.0 / 3.0"
+    ],
+    [
+     "max_number_pci_lanes",
+     "n/a"
+    ],
+    [
+     "thermal_design_power",
+     "65W"
+    ],
+    [
+     "cooling_device",
+     "Wraith Stealth Cooler"
+    ],
+    [
+     "operating_system_supported",
+     "Windows 11"
+    ],
+    [
+     "date_first_available",
+     "2023-01-05"
+    ]
+   ]
+  },
+  {
+   "type": "CPU",
+   "id": 4,
+   "category": "CPUs",
+   "category_id": 5,
+   "title": "Intel Core i9-14900KS",
+   "name": "Core i9-14900KS",
+   "price": "699.99",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 273,
+   "units_sold": 135,
+   "images": [
+    "product_images/19-118-496-01.jpg"
+   ],
+   "details": [
+    [
+     "title",
+     "Intel Core i9-14900KS"
+    ],
+    [
+     "description",
+     "Intel® CoreTM 14th Gen i9-14900KS\r\nTHE WORLD’S FASTEST DESKTOP PROCESSOR1\r\nGame without compromise. Aimed at extreme gamers and enthusiasts, Intel® CoreTM i9-14900KS Processor pushes the maximum boost clock up to 6.2 GHz. Take advantage of Intel’s performance hybrid architecture designed for optimized performance in all scenarios and supercharge your CPU performance with a powerful suite of tuning and overclocking tools."
+    ],
+    [
+     "brand",
+     "Intel"
+    ],
+    [
+     "processor_type",
+     "Desktop"
+    ],
+    [
+     "series",
+     "Core i9 14th Gen"
+    ],
+    [
+     "name",
+     "Core i9-14900KS"
+    ],
+    [
+     "model",
+     "BX8071514900KS"
+    ],
+    [
+     "cpu_socket_type",
+     "LGA 1700"
+    ],
+    [
+     "core_name",
+     "Raptor Lake"
+    ],
+    [
+     "number_of_cores",
+     "24-Core (8P+16E)"
+    ],
+    [
+     "number_of_threads",
+     "32-Threads"
+    ],
+    [
+     "operating_frequency",
+     "n/a"
+    ],
+    [
+     "max_turbo_frequenvy",
+     "Intel Thermal Velocity Boost Frequency: Up to 6.2 GHz Intel Turbo Boost Max Technology 3.0 Frequency: Up to 5.9 GHz P-core Max Turbo Frequency: Up to 5.7 GHz E-core Max Turbo Frequency: Up to 4.5 GHz"
+    ],
+    [
+     "l2_cache",
+     "32MB"
+    ],
+    [
+     "l3_cache",
+     "36MB"
+    ],
+    [
+     "manufacturing_tech",
+     "Intel 7"
+    ],
+    [
+     "support_64_bit",
+     "Yes"
+    ],
+    [
+     "hyper_threading_support",
+     "Yes"
+    ],
+    [
+     "memory_types",
+     "DDR4 3200 / DDR5 5600"
+    ],
+    [
+     "memory_channel",
+     "2"
+    ],
+    [
+     "max_memory_size",
+     "192 GB"
+    ],
+    [
+     "max_memory_bandwidth",
+     "n/a"
+    ],
+    [
+     "virtualization_technology_support",
+     "Yes"
+    ],
+    [
+     "integrated_graphics",
+     "Intel UHD Graphics 770"
+    ],
+    [
+     "pci_express_revision",
+     "5.0 / 4.0"
+    ],
+    [
+     "max_number_pci_lanes",
+     "20"
+    ],
+    [
+     "thermal_design_power",
+     "150W"
+    ],
+    [
+     "cooling_device",
+     "Cooling device not included - Processor Only"
+    ],
+    [
+     "operating_system_supported",
+     "Linux / Windows 10 (22H2, 21H2) / Windows 11 (22H2, 21H2)"
+    ],
+    [
+     "date_first_available",
+     "2024-03-14"
+    ]
+   ]
+  },
+  {
+   "type": "ComputerCase",
+   "id": 1,
+   "category": "Computer Cases",
+   "category_id": 7,
+   "title": "LIAN LI O11 Dynamic EVO RGB Black Aluminum",
+   "name": "LIAN LI O11 Dynamic EVO RGB Black Aluminum / Steel / Tempered Glass ATX Mid Tower Computer Case----O11DERGBX",
+   "price": "159.99",
+   "discount": "15.00",
+   "discounted_units": 9,
+   "stock_quantity": 43,
+   "units_sold": 131,
+   "images": [
+    "product_images/2AM-000Z-000C0-01_v9WDQ0I.png",
+    "product_images/AFSTS231215rkBej.png",
+    "product_images/AFSTS231215s79na.png",
+    "product_images/AFSTS231215hSxdN.png"
+   ],
+   "details": [
+    [
+     "name",
+     "LIAN LI O11 Dynamic EVO RGB Black Aluminum / Steel / Tempered Glass ATX Mid Tower Computer Case----O11DERGBX"
+    ],
+    [
+     "title",
+     "LIAN LI O11 Dynamic EVO RGB Black Aluminum"
+    ],
+    [
+     "description",
+     ""
+    ],
+    [
+     "brand",
+     "LIAN LI"
+    ],
+    [
+     "series",
+     "n/a"
+    ],
+    [
+     "model",
+     "O11DERGBX"
+    ],
+    [
+     "type",
+     "ATX / Micro ATX Mid Tower"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "case_material",
+     "Steel, Aluminum, Tempered glass"
+    ],
+    [
+     "with_power_supply",
+     "No"
+    ],
+    [
+     "power_supply",
+     "n/a"
+    ],
+    [
+     "psu_main_connector",
+     "n/a"
+    ],
+    [
+     "motherboard_compatibility",
+     "EATX(under 280mm)/ATX/MICRO-ATX/MINI-ITX"
+    ],
+    [
+     "dust_filters",
+     "1 x Bottom"
+    ],
+    [
+     "internal_3_5_drive_bays",
+     "Hard Drive Cage: 2 X 3.5\" HDD or 2.5\" SSD Side fan Bracket: 2 X 3.5\" HDD or 4x 2.5\" SSD"
+    ],
+    [
+     "internal_2_5_drive_bays",
+     "Behind MB Tray: 2 X 2.5\" SSD"
+    ],
+    [
+     "expansion_slots",
+     "n/a"
+    ],
+    [
+     "front_ports",
+     "Power Button Reset Button USB 3.0 x 2 Audio x 1 USB type C Color Button Mode button x2 Brightness bu"
+    ],
+    [
+     "fan_options",
+     "Side: 120mm x3 / 140mm x3 Bottom: 120mm x3/ 140mm x3 Rear: 120 mm x1 Top: 120mm x3 / 140mm x3"
+    ],
+    [
+     "radiator_options",
+     "Side: 360 / 280 /240 Bottom: 360 / 280 /240 Top: 360/ 420 /240"
+    ],
+    [
+     "max_gpu_length",
+     "455.7 mm(Max)"
+    ],
+    [
+     "max_cpu_cooler_height",
+     "167 mm(Max)"
+    ],
+    [
+     "max_psu_length",
+     "ATX(under 220 mm)"
+    ],
+    [
+     "dimensions",
+     "478 x (W) 290 x (H) 471 mm"
+    ],
+    [
+     "weight",
+     "17.2 kg"
+    ],
+    [
+     "features",
+     "n/a"
+    ],
+    [
+     "package_content",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2024-01-22"
+    ]
+   ]
+  },
+  {
+   "type": "ComputerCase",
+   "id": 2,
+   "category": "Computer Cases",
+   "category_id": 7,
+   "title": "Corsair 4000D Airflow 4000D Black Steel",
+   "name": "Corsair 4000D Airflow 4000D Black Steel / Plastic / Tempered Glass ATX Mid Tower Computer Case",
+   "price": "104.99",
+   "discount": "10.00",
+   "discounted_units": 10,
+   "stock_quantity": 23,
+   "units_sold": 0,
+   "images": [
+    "product_images/11-139-156-V01_U0kEj3m.jpg",
+    "product_images/11-139-156-V07.jpg",
+    "product_images/11-139-156-V06.jpg",
+    "product_images/11-139-156-V05.jpg",
+    "product_images/11-139-156-V04.jpg",
+    "product_images/11-139-156-V03.jpg",
+    "product_images/11-139-156-V02.jpg"
+   ],
+   "details": [
+    [
+     "name",
+     "Corsair 4000D Airflow 4000D Black Steel / Plastic / Tempered Glass ATX Mid Tower Computer Case"
+    ],
+    [
+     "title",
+     "Corsair 4000D Airflow 4000D Black Steel"
+    ],
+    [
+     "description",
+     "Product image1:42\r\n\r\nHIGH-AIRFLOW FRONT PANEL  \r\nAn optimized front panel delivers massive airflow to your system for maximum cooling.\r\n\r\nCORSAIR RAPIDROUTE CABLE MANAGEMENT\r\n\r\nRoute your major cables through a single channel, with a roomy 25 mm of space behind the motherboard for all of your cables, making a clean- looking build easier than ever.\r\n\r\nPOWERFUL DIRECTED AIRFLOW\r\n\r\nEquipped with two CORSAIR 120 mm AirGuide fans, utilizing anti-vortex vanes to concentrate airflow and enhance cooling.\r\n\r\n.\r\n\r\nALL THE STORAGE YOU NEED\r\n\r\nFits up to 2x 2.5 in. SSDs and 2x 3.5 in. HDDs, with relocatable SSD trays that can be mobed to the front PSU cover.\r\n\r\nVERTICAL GPU MOUNT READY\r\n\r\nWith included vertical PCIe slots and a screw mount for a CORSAIR PCI-Express 3.0 extension cable (sold separately) you can show off your GPU and keep it secure at the same time.\r\n\r\nPUT YOUR CONNECTIONS\r\nWITHIN EASY REACH\r\n\r\nThe modern front panel I/O panel includes a USB 3.1 Type-C Port,\r\nUSB 3.0 port, and a combination audio/microphone jack.\r\n\r\nEASY SLIDE-ON, SLIDE-OFF SIDE PANEL\r\n\r\nShow off your high-profile components and RGB lighting with an easy slide-on, slide-off attach method."
+    ],
+    [
+     "brand",
+     "Corsair"
+    ],
+    [
+     "series",
+     "4000D Airflow"
+    ],
+    [
+     "model",
+     "4000D"
+    ],
+    [
+     "type",
+     "ATX Mid Tower"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "case_material",
+     "Steel / Plastic / Tempered Glass"
+    ],
+    [
+     "with_power_supply",
+     "No"
+    ],
+    [
+     "power_supply",
+     "n/a"
+    ],
+    [
+     "psu_main_connector",
+     "n/a"
+    ],
+    [
+     "motherboard_compatibility",
+     "Micro ATX / ATX / Mini ITX / E-ATX (305mm x 277mm)"
+    ],
+    [
+     "dust_filters",
+     "Yes"
+    ],
+    [
+     "internal_3_5_drive_bays",
+     "2"
+    ],
+    [
+     "internal_2_5_drive_bays",
+     "2"
+    ],
+    [
+     "expansion_slots",
+     "7 + 2 Vertical"
+    ],
+    [
+     "front_ports",
+     "1 x USB 3.1 Type-C / 1 x USB 3.0 / Audio"
+    ],
+    [
+     "fan_options",
+     "Front: 3 x 120mm (1 x 120mm Included), 2 x 140mm fan  Top: 2 x 120mm, 2 x 140m fan  Rear: 120mm (1 x"
+    ],
+    [
+     "radiator_options",
+     "Front: 360mm / 280mm  Top: 280mm with CORSAIR LPX DRAM / 240mm with all CORSAIR DRAM  Rear: 120mm"
+    ],
+    [
+     "max_gpu_length",
+     "360 mm"
+    ],
+    [
+     "max_cpu_cooler_height",
+     "170 mm"
+    ],
+    [
+     "max_psu_length",
+     "180 mm"
+    ],
+    [
+     "dimensions",
+     "18.35\" x 9.06\" x 17.83\""
+    ],
+    [
+     "weight",
+     "17.31 lbs."
+    ],
+    [
+     "features",
+     "n/a"
+    ],
+    [
+     "package_content",
+     "4000D Airflow Case Quick Start Guide Accessory Box"
+    ],
+    [
+     "date_first_available",
+     "2020-11-14"
+    ]
+   ]
+  },
+  {
+   "type": "ComputerCase",
+   "id": 3,
+   "category": "Computer Cases",
+   "category_id": 7,
+   "title": "Phanteks XT Pro Ultra",
+   "name": "Phanteks XT Pro Ultra, Mid-Tower Gaming Chassis",
+   "price": "79.99",
+   "discount": "10.00",
+   "discounted_units": 30,
+   "stock_quantity": 340,
+   "units_sold": 0,
+   "images": [
+    "product_images/11-854-133-01.jpg",
+    "product_images/11-854-133-02.jpg",
+    "product_images/11-854-133-03.jpg",
+    "product_images/11-854-133-04.jpg",
+    "product_images/11-854-133-05.jpg"
+   ],
+   "details": [
+    [
+     "name",
+     "Phanteks XT Pro Ultra, Mid-Tower Gaming Chassis"
+    ],
+    [
+     "title",
+     "Phanteks XT Pro Ultra"
+    ],
+    [
+     "description",
+     "Mid-Tower Gaming Chassis, 4x M25-140 Fans Included, High Airflow Performance Mesh, Tempered Glass Window, USB-C 3.2 Gen2, Black"
+    ],
+    [
+     "brand",
+     "Phanteks"
+    ],
+    [
+     "series",
+     "XT"
+    ],
+    [
+     "model",
+     "PH-XT523P1_DBK01"
+    ],
+    [
+     "type",
+     "Mid-Tower"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "case_material",
+     "Steel Chassis, Tempered Glass Window, ABS plastic"
+    ],
+    [
+     "with_power_supply",
+     "n/a"
+    ],
+    [
+     "power_supply",
+     "n/a"
+    ],
+    [
+     "psu_main_connector",
+     "n/a"
+    ],
+    [
+     "motherboard_compatibility",
+     "ATX, micro-ATX, mini-ITX, E-ATX (up to 280mm wide)"
+    ],
+    [
+     "dust_filters",
+     "n/a"
+    ],
+    [
+     "internal_3_5_drive_bays",
+     "2x (1x if 2x SSD installed)"
+    ],
+    [
+     "internal_2_5_drive_bays",
+     "2x (0x if 2x HDD installed)"
+    ],
+    [
+     "expansion_slots",
+     "7. Also support Vertical GPU, with optional bracket PH-VGPUKT4.0_03R/PH-PGPUKT_01"
+    ],
+    [
+     "front_ports",
+     "1x USB 3.0, 1x USB-C 3.2 Gen2, Microphone/Headphone Combo, Power Button, Reset Button"
+    ],
+    [
+     "fan_options",
+     "Front: 3 x 120mm / 3 x 140mm Top: 3 x 120mm / 2 x 140mm Rear: 1 x 120mm / 1 x 140mm Midplate: 3 x 12"
+    ],
+    [
+     "radiator_options",
+     "Front: Up to 240 (120mm radiator) Top: Up to 360 (120mm radiator) Rear: Up to 120 (120mm radiator)"
+    ],
+    [
+     "max_gpu_length",
+     "415 mm"
+    ],
+    [
+     "max_cpu_cooler_height",
+     "184 mm"
+    ],
+    [
+     "max_psu_length",
+     "270 mm"
+    ],
+    [
+     "dimensions",
+     "17.7x9.05x19.68 in"
+    ],
+    [
+     "weight",
+     "18.01lbs"
+    ],
+    [
+     "features",
+     "n/a"
+    ],
+    [
+     "package_content",
+     "n/a"
+    ],
+    [
+     "date_first_available",
+     "2024-02-19"
+    ]
+   ]
+  },
+  {
+   "type": "PowerSupply",
+   "id": 1,
+   "category": "Power Supplies",
+   "category_id": 8,
+   "title": "CORSAIR RM750e",
+   "name": "CORSAIR RM750e Fully Modular Low-Noise ATX Power Supply",
+   "price": "99.99",
+   "discount": "20.00",
+   "discounted_units": 120,
+   "stock_quantity": 500,
+   "units_sold": 0,
+   "images": [
+    "product_images/17-139-300-03.png",
+    "product_images/17-139-300-01.png",
+    "product_images/17-139-300-02.png",
+    "product_images/17-139-300-04.png",
+    "product_images/17-139-300-07.png"
+   ],
+   "details": [
+    [
+     "name",
+     "CORSAIR RM750e Fully Modular Low-Noise ATX Power Supply"
+    ],
+    [
+     "title",
+     "CORSAIR RM750e"
+    ],
+    [
+     "description",
+     "RMe SERIES \r\nRM750e POWER SUPPLY\r\nFULLY MODULAR LOW-NOISE ATX POWER SUPPLIES\r\n\r\nSTEADY POWER FOR YOUR SYSTEM\r\nFULLY MODULAR CABLING \r\n\r\nKeep cable clutter down by connecting only the cables your system needs and nothing else. Five universal 8-pin connectors can be used with any 8-pin cable, satisfying all the power needs of modern motherboards and GPUs.\r\nON THE CUTTING-EDGE \r\nATX 3.0 CERTIFIED \r\n\r\nThe ATX 3.0 standard demands a high level of reliability and power efficiency. While many CORSAIR PSUs meet these requirements, RMe Series PSUs are formally certified for ATX 3.0 compliance. \r\n\r\nPCIe 5.0 12VHPWR GPU cable included for use with modern graphics cards such as the NVIDIA® GeForce RTX™ 40 Series.\r\nLOW NOISE OPERATION IN A COMPACT SIZE \r\n\r\nShorter than the traditional power supply, the RMe offers more cable space behind your PSU. \r\n\r\nIncludes Zero RPM Fan Mode for near-silent operation at lower loads. \r\n\r\nLOW NOISE \r\nFAN MODE\r\nTECHNOLOGY AND RELIABILITY \r\n\r\nFor consistent, reliable power and superb electrical performance, each RMe Series power supply features a robust resonant LLC topology with DC-DC conversion and 105° rated industrial-grade capacitors. \r\n\r\nWith precise timings, RMe supports Modern Standby, ensuring extremely fast wake-from-sleep times and better low-load efficiency.\r\n80 PLUS GOLD-CERTIFIED \r\n\r\nSteady power output at up to 90% efficiency, and Cybenetics Platinum certified for lower power consumption, less noise, and cooler temperatures.\r\nSEVEN-YEAR WARRANTY\r\nWORLD-CLASS SUPPORT \r\n\r\nOur award-winning service means you can enjoy your gear worry-free."
+    ],
+    [
+     "brand",
+     "CORSAIR"
+    ],
+    [
+     "series",
+     "RM750e"
+    ],
+    [
+     "model",
+     "CP-9020262-NA"
+    ],
+    [
+     "type",
+     "ATX / ATX (ATX 3.0 Compatible)"
+    ],
+    [
+     "maximum_power",
+     "750 W"
+    ],
+    [
+     "fans",
+     "1 x 120 mm rifle bearing fan"
+    ],
+    [
+     "pfc",
+     "n/a"
+    ],
+    [
+     "main_connector",
+     "24Pin"
+    ],
+    [
+     "plus12v_rails",
+     "n/a"
+    ],
+    [
+     "pci_express_connector",
+     "3 x 6+2-Pin"
+    ],
+    [
+     "sata_power_connector",
+     "7"
+    ],
+    [
+     "max_psu_length",
+     "151 mm"
+    ],
+    [
+     "modular",
+     "Full Modular"
+    ],
+    [
+     "hold_up_time",
+     "n/a"
+    ],
+    [
+     "efficiency",
+     "n/a"
+    ],
+    [
+     "energy_efficient",
+     "80 PLUS GOLD Certified"
+    ],
+    [
+     "psu_noise_level",
+     "Cybenetics Standard +"
+    ],
+    [
+     "over_voltage_protection",
+     "n/a"
+    ],
+    [
+     "input_voltage",
+     "100 - 240 V"
+    ],
+    [
+     "input_frequency_range",
+     "47 - 63 Hz"
+    ],
+    [
+     "input_current",
+     "10A-5A"
+    ],
+    [
+     "output",
+     "+3.3V@20A, +5V@20A, +12V@62.5A, +5VSB@3A"
+    ],
+    [
+     "mtbf",
+     "n/a"
+    ],
+    [
+     "approvals",
+     "n/a"
+    ],
+    [
+     "connectors",
+     "1 x 24-pin ATX (24-pin) 2 x ATX 12V/EPS12V (4+4-pin) 3 x PCIe (6+2) 7 x SATA 4 x PATA"
+    ],
+    [
+     "features",
+     "Fully Modular PSU: Reliable and efficient low-noise power supply with fully modular cabling."
+    ],
+    [
+     "dimensions",
+     "5.91\"*5.51\"*3.35\""
+    ],
+    [
+     "weight",
+     "3.27 lbs"
+    ],
+    [
+     "date_first_available",
+     "2023-03-09"
+    ]
+   ]
+  },
+  {
+   "type": "CaseFan",
+   "id": 1,
+   "category": "Case Fans",
+   "category_id": 12,
+   "title": "Noctua NF-A14 PWM",
+   "name": "Noctua NF-A14 PWM, Premium Quiet Fan, 4-Pin (140mm, Brown)",
+   "price": "23.95",
+   "discount": "0.00",
+   "discounted_units": 0,
+   "stock_quantity": 565,
+   "units_sold": 317,
+   "images": [
+    "product_images/AADYS211108pj9QJ_EjDZKyA.jpg",
+    "product_images/AADYS211108UXxhE.jpg",
+    "product_images/AADYS2111087woYj2222.jpg",
+    "product_images/AADYS211108Tjjl0.jpg",
+    "product_images/AADYS211108q6gdA.jpg",
+    "product_images/AADYS211108UB13c.jpg"
+   ],
+   "details": [
+    [
+     "name",
+     "Noctua NF-A14 PWM, Premium Quiet Fan, 4-Pin (140mm, Brown)"
+    ],
+    [
+     "title",
+     "Noctua NF-A14 PWM"
+    ],
+    [
+     "description",
+     "The NF-A14 is a premium quality quiet 140mm fan with a square frame that complies with Noctua's AAO(Advanced Acoustic Optimisation) standard. Its square shape and 140mm mounting holes (124.5mm spacing) make it ideal for use on watercooling radiators or as an upgrade for 140mm case fans. Featuring sophisticated aerodynamic design measures such as Flow Acceleration Channels, the NF-A14 further improves the renowned quiet cooling performance of the award-winning NF-P14. The PWM version sports Noctua's custom designed NE-FD1 IC for fully automatic speed control via 4-pin fan headers and comes with a Low-Noise-Adaptor to reduce the maximum speed during PWM control from 1500rpm to 1200rpm. Its performance-oriented 1500rpm top speed and comprehensive speed control options make the NF-A14 PWM an elite choice for users who strive to strike a perfect balance between excellent cooling capacity and superb quietness of operation, be it on watercooling radiators, on heatsinks or in case ventilation."
+    ],
+    [
+     "brand",
+     "Noctua"
+    ],
+    [
+     "series",
+     "NF-A14"
+    ],
+    [
+     "model",
+     "NF-A14 PWM"
+    ],
+    [
+     "fan_counts",
+     "1 Fan"
+    ],
+    [
+     "fan_controller",
+     "No Controller"
+    ],
+    [
+     "type",
+     "Case Fan"
+    ],
+    [
+     "fan_size",
+     "140mm"
+    ],
+    [
+     "fan_thickness",
+     "25mm"
+    ],
+    [
+     "bearing_type",
+     "SSO2"
+    ],
+    [
+     "rpm",
+     "1500 RPM 1200 RPM ( with L.N.A adapter) 300 RPM (Mini Rotational Speed)"
+    ],
+    [
+     "air_flow",
+     "82.52 CFM (standard) 67.98 CFM ( w/L.N.A. )"
+    ],
+    [
+     "noise_level",
+     "24.6 dB(A) / standard 19.2 dB(A) (w/ L.N.A )"
+    ],
+    [
+     "power_connector",
+     "4 Pin"
+    ],
+    [
+     "color",
+     "Brown"
+    ],
+    [
+     "led",
+     "No"
+    ],
+    [
+     "features",
+     "n/a"
+    ],
+    [
+     "dimensions",
+     "140.00 x 140.00 x 25.00 mm"
+    ],
+    [
+     "package_contents",
+     "1 x Low-Noise Adaptor (L.N.A.)\r\n1 x 4-Pin Y-Cable\r\n1 x 30cm Extension Cable\r\n4 x Vibration-Compensators\r\n4 x Fan Screws"
+    ],
+    [
+     "date_first_available",
+     "2019-01-16"
+    ]
+   ]
+  },
+  {
+   "type": "CaseFan",
+   "id": 2,
+   "category": "Case Fans",
+   "category_id": 12,
+   "title": "CORSAIR AF120 ELITE High-Performance 120mm PWM",
+   "name": "CORSAIR AF120 ELITE High-Performance 120mm PWM Fluid Dynamic Bearing Fan",
+   "price": "19.99",
+   "discount": "10.00",
+   "discounted_units": 11,
+   "stock_quantity": 119,
+   "units_sold": 9,
+   "images": [
+    "product_images/35-181-311-V06.jpg",
+    "product_images/35-181-311-V05.jpg",
+    "product_images/35-181-311-V07.jpg",
+    "product_images/35-181-311-V03.jpg"
+   ],
+   "details": [
+    [
+     "name",
+     "CORSAIR AF120 ELITE High-Performance 120mm PWM Fluid Dynamic Bearing Fan"
+    ],
+    [
+     "title",
+     "CORSAIR AF120 ELITE High-Performance 120mm PWM"
+    ],
+    [
+     "description",
+     "HIGH-PERFORMANCE COOLING\r\n\r\nThe ideal cooling fans for your PC provide optimal airflow to keep components cool at low to medium speeds. \r\n\r\nWith up to 59.1CFM of airflow at peak 1,850 RPM, AF ELITE Series fans deliver the perfect balance between low noise, strong static pressure, and high airflow without compromising performance.\r\n\r\nPOWERFUL GUIDED AIRFLOW\r\n\r\nCORSAIR AirGuide technology uses anti-vortex vanes to concentrate airflow, delivering improved cooling performance across your system’s components.\r\n\r\nAS QUIET AS A WHISPER\r\n\r\nThanks to its low-noise design, the AF ELITE Series fan spins as quietly as 31.5 dba. \r\n\r\nDesigned to support Zero RPM mode, AF ELITE fans eliminate fan noise by only spinning up when temperatures reach the threshold you’ve set using CORSAIR’s iCUE software.\r\n\r\nEXCEPTIONAL DURABILITY\r\n\r\nA fluid dynamic bearing reduces friction with lubricant between the shaft and bearing, ensuring exceptional durability and lifespan with minimal noise."
+    ],
+    [
+     "brand",
+     "Corsair"
+    ],
+    [
+     "series",
+     "AF120 ELITE"
+    ],
+    [
+     "model",
+     "CO-9050140-WW"
+    ],
+    [
+     "fan_counts",
+     "1 Fan"
+    ],
+    [
+     "fan_controller",
+     "No Controller"
+    ],
+    [
+     "type",
+     "Case Fan"
+    ],
+    [
+     "fan_size",
+     "120 mm"
+    ],
+    [
+     "fan_thickness",
+     "25mm"
+    ],
+    [
+     "bearing_type",
+     "Fluid Dynamic"
+    ],
+    [
+     "rpm",
+     "400 - 1850 RPM +/-10%"
+    ],
+    [
+     "air_flow",
+     "10.9 - 59.1 CFM"
+    ],
+    [
+     "noise_level",
+     "31.5 dBA"
+    ],
+    [
+     "power_connector",
+     "4 Pin"
+    ],
+    [
+     "color",
+     "Black"
+    ],
+    [
+     "led",
+     "n/a"
+    ],
+    [
+     "features",
+     "CORSAIR AirGuide Technology: Utilizes anti-vortex vanes to channel concentrated airflow and improve cooling, whether used as intake, exhaust, or mounted to a liquid cooling radiator or heatsink.\r\n\r\nFluid Dynamic Bearing: Lubricant between the shaft and bearing greatly reduces friction, ensuring exceptional durability and minimal noise.\r\n\r\nPush Air Without Pushing the Decibels: A low-noise 120mm fan blade spins as quietly as 31.5 dBA.\r\n\r\nKeep Your System Cool: Powerful PWM-controlled fan speeds from 400 RPM up to 1,850 RPM, pushing up to 59.1 CFM of air with 1.93mm-H2O of static pressure.\r\n\r\nZero RPM Mode Support: Stops the fan entirely when sent a 0 RPM PWM signal, completely eliminating fan noise.\r\n\r\nUniversal 120mm Sizing: Fits in case fan mounts, radiators, heatsinks, and more."
+    ],
+    [
+     "dimensions",
+     "120.00 x 120.00 x 25.00 mm"
+    ],
+    [
+     "package_contents",
+     "1 x AF120 ELITE\r\n4 x mounting screws"
+    ],
+    [
+     "date_first_available",
+     "2022-05-02"
+    ]
+   ]
+  }
+ ]
+}

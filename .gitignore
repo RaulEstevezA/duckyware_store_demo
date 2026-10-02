@@ -32,3 +32,6 @@ htmlcov/
 # Editor and IDE files
 .vscode/
 .idea/
+
+# GitHub Pages build output (tools/build_site.py)
+dist/

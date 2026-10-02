@@ -2,6 +2,13 @@
 
 **Versión en inglés:** [README.md](README.md)
 
+> [!IMPORTANT]
+> **Este es el repositorio de la demo para GitHub Pages de DuckyWare.**
+> El proyecto Django original (la versión que funciona con un backend real) está en
+> **[RaulEstevezA/Duckyware_Store](https://github.com/RaulEstevezA/Duckyware_Store)**.
+
+**Demo en vivo:** [raulesteveza.github.io/demos/Duckyware_Store](https://raulesteveza.github.io/demos/Duckyware_Store/)
+
 ## Proyecto final del curso CS50W
 
 **Autor:** Raul Estevez  
@@ -9,6 +16,66 @@
 **LinkedIn:** [Raul Estevez](https://www.linkedin.com/in/raul-estevez-abella-9a2a1687/)  
 **Contacto:** [r.estevezbella@gmail.com](mailto:r.estevezbella@gmail.com)  
 **Video demo:** [YouTube](https://youtu.be/ckqKTbNd3lc)
+
+## Demo web (GitHub Pages)
+
+DuckyWare es una aplicación Python/Django: necesita un servidor que ejecute las vistas, una base de datos SQLite y el SDK de PayPal. GitHub Pages solo sirve archivos estáticos, así que **la tienda ha tenido que ser simulada para poder publicarse allí**. Este repositorio conserva intacto el proyecto Django original y añade una versión estática en `web/` que reproduce todas sus funcionalidades en el navegador:
+
+1. **Sin servidor ni base de datos.** El catálogo (categorías, productos, imágenes y especificaciones técnicas) se exporta de `db.sqlite3` a `web/data/store.json` usando los propios modelos de Django del proyecto.
+2. **Backend simulado.** `web/js/backend.js` traslada a JavaScript la lógica de `store/views.py`: autenticación, carrito anónimo y de usuario (que se fusionan al iniciar sesión), descuentos y límites de stock, lista de deseos, perfil y dirección de envío, pedidos, actualización de stock y unidades vendidas, y un panel de administración. Todo se guarda en el navegador de cada visitante (`localStorage`), así que nadie ve los cambios de otros visitantes.
+3. **Pagos simulados.** PayPal, tarjeta de crédito y transferencia crean pedidos reales dentro de la demo, pero no se contacta con ningún servicio externo ni se cobra nada.
+4. **Mismo aspecto.** Se reutilizan sin cambios el CSS y los iconos originales de `store/static/store/`, y las plantillas de Django se han portado una a una.
+
+En un hosting que permita backend (por ejemplo un VPS, Render o PythonAnywhere), el proyecto Django original funciona tal cual y **no necesita ninguna de estas modificaciones**.
+
+### Diferencias con el proyecto original
+
+| | Proyecto original (Django) | Demo en GitHub Pages |
+|---|---|---|
+| Backend | Vistas de Django en un servidor Python | JavaScript en el navegador (`web/js/backend.js`) |
+| Base de datos | SQLite (`db.sqlite3`) | Catálogo en `web/data/store.json` + `localStorage` por visitante |
+| Usuarios | Autenticación de Django, usuarios de ejemplo en la base de datos | Cuentas de demo `demo` / `demo1234` y `admin` / `admin1234`, o registra la tuya |
+| PayPal | Sandbox real de PayPal con `paypalrestsdk` | Paso de aprobación simulado |
+| Tarjeta / transferencia | Ya simulados en el original | Simulados |
+| Administración | Admin de Django (`/admin/`) | Admin Panel para usuarios staff: productos, pedidos, usuarios y categorías |
+| URLs | `/category/CPUs/` | `#/category/CPUs/` (rutas con hash, GitHub Pages no puede reescribir URLs) |
+| Páginas de categoría | Productos de la categoría exacta | También los productos de sus subcategorías |
+
+### Estructura de la demo
+
+```text
+web/                     # demo estática (lo que se publica)
+├── index.html
+├── css/demo.css         # estilos propios de la demo (aviso, pasarela simulada, admin)
+├── data/store.json      # catálogo exportado de db.sqlite3
+└── js/
+    ├── backend.js       # backend de Django simulado (views.py + modelos)
+    ├── main.js          # router con hash (urls.py)
+    ├── layout.js        # layout.html + aviso de demo
+    ├── html.js          # helpers de plantillas con escapado automático
+    ├── messages.js      # equivalente a django.contrib.messages
+    └── views/           # plantillas portadas y su JavaScript
+tools/
+├── export_data.py       # db.sqlite3 -> web/data/store.json (necesita Django)
+└── build_site.py        # genera dist/ (solo biblioteca estándar)
+.github/workflows/deploy-demo.yml
+```
+
+### Ejecutar la demo en local
+
+```sh
+python3 tools/build_site.py --serve
+```
+
+Y abre `http://localhost:8000`. Si cambia la base de datos, regenera antes el catálogo (con Django instalado):
+
+```sh
+python tools/export_data.py
+```
+
+### Despliegue
+
+Cada push a `main` que modifica la demo ejecuta `.github/workflows/deploy-demo.yml`, que genera `dist/` y lo copia en `demos/Duckyware_Store/` del repositorio [RaulEstevezA.github.io](https://github.com/RaulEstevezA/RaulEstevezA.github.io). Necesita el secreto de Actions `PORTFOLIO_DEPLOY_TOKEN`: un token con permiso *Contents: Read and write* sobre ese repositorio.
 
 ## Descripción general
 
