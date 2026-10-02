@@ -10,7 +10,8 @@ PRODUCT_MODELS = [
 ]
 
 # Dictionary to map category names to models
-# When adding new products, if the category has more than one word add the space on the left side
+# Each key must be exactly the Category.name stored in the database (including spaces),
+# otherwise the product page, cart and wishlist cannot find the product model
 CATEGORY_TO_MODEL = {
     'Motherboards': Motherboard,
     'CPUs': CPU,
@@ -18,15 +19,15 @@ CATEGORY_TO_MODEL = {
     'RAM': RAM,
     'Computer Cases': ComputerCase,
     'Power Supplies': PowerSupply,
-    'CPU Air Coolers': CPUAirCooler,
-    'CPU Liquid Coolers': CPULiquidCooler,
+    'CPU Air Cooler': CPUAirCooler,
+    'CPU Liquid Cooler': CPULiquidCooler,
     'Case Fans': CaseFan,
-    'SoundCards': SoundCard,
-    'Hard Drives': HardDrive,
-    'SSDs': SSD,
+    'Sound Card': SoundCard,
+    'Hard Drive': HardDrive,
+    'SSD': SSD,
     'Monitors': Monitor,
     'Keyboards': Keyboard,
     'Headsets': Headset,
     'Mouses': Mouse,
-    'WebCams': WebCam
+    'Web Cams': WebCam
 }
