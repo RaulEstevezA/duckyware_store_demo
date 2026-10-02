@@ -121,10 +121,10 @@
    "stock_quantity": 108,
    "units_sold": 34,
    "images": [
-    "product_images/19-118-341-07.jpg",
-    "product_images/19-118-341-05.jpg",
-    "product_images/19-118-341-08.jpg",
-    "product_images/19-118-341-06.jpg"
+    "product_images/19-118-341-07.webp",
+    "product_images/19-118-341-05.webp",
+    "product_images/19-118-341-08.webp",
+    "product_images/19-118-341-06.webp"
    ],
    "details": [
     [
@@ -262,8 +262,8 @@
    "stock_quantity": 61,
    "units_sold": 3,
    "images": [
-    "product_images/19-113-769-03.jpg",
-    "product_images/19-113-769-02.jpg"
+    "product_images/19-113-769-03.webp",
+    "product_images/19-113-769-02.webp"
    ],
    "details": [
     [
@@ -401,7 +401,7 @@
    "stock_quantity": 504,
    "units_sold": 0,
    "images": [
-    "product_images/19-113-787-02.png"
+    "product_images/19-113-787-02.webp"
    ],
    "details": [
     [
@@ -539,7 +539,7 @@
    "stock_quantity": 273,
    "units_sold": 135,
    "images": [
-    "product_images/19-118-496-01.jpg"
+    "product_images/19-118-496-01.webp"
    ],
    "details": [
     [
@@ -677,10 +677,10 @@
    "stock_quantity": 43,
    "units_sold": 131,
    "images": [
-    "product_images/2AM-000Z-000C0-01_v9WDQ0I.png",
-    "product_images/AFSTS231215rkBej.png",
-    "product_images/AFSTS231215s79na.png",
-    "product_images/AFSTS231215hSxdN.png"
+    "product_images/2AM-000Z-000C0-01_v9WDQ0I.webp",
+    "product_images/AFSTS231215rkBej.webp",
+    "product_images/AFSTS231215s79na.webp",
+    "product_images/AFSTS231215hSxdN.webp"
    ],
    "details": [
     [
@@ -810,13 +810,13 @@
    "stock_quantity": 23,
    "units_sold": 0,
    "images": [
-    "product_images/11-139-156-V01_U0kEj3m.jpg",
-    "product_images/11-139-156-V07.jpg",
-    "product_images/11-139-156-V06.jpg",
-    "product_images/11-139-156-V05.jpg",
-    "product_images/11-139-156-V04.jpg",
-    "product_images/11-139-156-V03.jpg",
-    "product_images/11-139-156-V02.jpg"
+    "product_images/11-139-156-V01_U0kEj3m.webp",
+    "product_images/11-139-156-V07.webp",
+    "product_images/11-139-156-V06.webp",
+    "product_images/11-139-156-V05.webp",
+    "product_images/11-139-156-V04.webp",
+    "product_images/11-139-156-V03.webp",
+    "product_images/11-139-156-V02.webp"
    ],
    "details": [
     [
@@ -946,11 +946,11 @@
    "stock_quantity": 340,
    "units_sold": 0,
    "images": [
-    "product_images/11-854-133-01.jpg",
-    "product_images/11-854-133-02.jpg",
-    "product_images/11-854-133-03.jpg",
-    "product_images/11-854-133-04.jpg",
-    "product_images/11-854-133-05.jpg"
+    "product_images/11-854-133-01.webp",
+    "product_images/11-854-133-02.webp",
+    "product_images/11-854-133-03.webp",
+    "product_images/11-854-133-04.webp",
+    "product_images/11-854-133-05.webp"
    ],
    "details": [
     [
@@ -1080,11 +1080,11 @@
    "stock_quantity": 500,
    "units_sold": 0,
    "images": [
-    "product_images/17-139-300-03.png",
-    "product_images/17-139-300-01.png",
-    "product_images/17-139-300-02.png",
-    "product_images/17-139-300-04.png",
-    "product_images/17-139-300-07.png"
+    "product_images/17-139-300-03.webp",
+    "product_images/17-139-300-01.webp",
+    "product_images/17-139-300-02.webp",
+    "product_images/17-139-300-04.webp",
+    "product_images/17-139-300-07.webp"
    ],
    "details": [
     [
@@ -1230,12 +1230,12 @@
    "stock_quantity": 565,
    "units_sold": 317,
    "images": [
-    "product_images/AADYS211108pj9QJ_EjDZKyA.jpg",
-    "product_images/AADYS211108UXxhE.jpg",
-    "product_images/AADYS2111087woYj2222.jpg",
-    "product_images/AADYS211108Tjjl0.jpg",
-    "product_images/AADYS211108q6gdA.jpg",
-    "product_images/AADYS211108UB13c.jpg"
+    "product_images/AADYS211108pj9QJ_EjDZKyA.webp",
+    "product_images/AADYS211108UXxhE.webp",
+    "product_images/AADYS2111087woYj2222.webp",
+    "product_images/AADYS211108Tjjl0.webp",
+    "product_images/AADYS211108q6gdA.webp",
+    "product_images/AADYS211108UB13c.webp"
    ],
    "details": [
     [
@@ -1341,10 +1341,10 @@
    "stock_quantity": 119,
    "units_sold": 9,
    "images": [
-    "product_images/35-181-311-V06.jpg",
-    "product_images/35-181-311-V05.jpg",
-    "product_images/35-181-311-V07.jpg",
-    "product_images/35-181-311-V03.jpg"
+    "product_images/35-181-311-V06.webp",
+    "product_images/35-181-311-V05.webp",
+    "product_images/35-181-311-V07.webp",
+    "product_images/35-181-311-V03.webp"
    ],
    "details": [
     [

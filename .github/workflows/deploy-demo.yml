@@ -15,7 +15,6 @@ on:
     paths:
       - 'web/**'
       - 'store/static/**'
-      - 'media/**'
       - 'tools/build_site.py'
       - '.github/workflows/deploy-demo.yml'
   workflow_dispatch:

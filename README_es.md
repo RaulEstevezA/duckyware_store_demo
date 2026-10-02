@@ -21,7 +21,7 @@
 
 DuckyWare es una aplicación Python/Django: necesita un servidor que ejecute las vistas, una base de datos SQLite y el SDK de PayPal. GitHub Pages solo sirve archivos estáticos, así que **la tienda ha tenido que ser simulada para poder publicarse allí**. Este repositorio conserva intacto el proyecto Django original y añade una versión estática en `web/` que reproduce todas sus funcionalidades en el navegador:
 
-1. **Sin servidor ni base de datos.** El catálogo (categorías, productos, imágenes y especificaciones técnicas) se exporta de `db.sqlite3` a `web/data/store.json` usando los propios modelos de Django del proyecto.
+1. **Sin servidor ni base de datos.** El catálogo (categorías, productos, imágenes y especificaciones técnicas) se exporta de `db.sqlite3` a `web/data/store.json` usando los propios modelos de Django del proyecto. Las imágenes de producto se convierten a WebP (unos 2 MB en lugar de 11 MB); las originales se quedan en `media/` para el proyecto Django.
 2. **Backend simulado.** `web/js/backend.js` traslada a JavaScript la lógica de `store/views.py`: autenticación, carrito anónimo y de usuario (que se fusionan al iniciar sesión), descuentos y límites de stock, lista de deseos, perfil y dirección de envío, pedidos, actualización de stock y unidades vendidas, y un panel de administración. Todo se guarda en el navegador de cada visitante (`localStorage`), así que nadie ve los cambios de otros visitantes.
 3. **Pagos simulados.** PayPal, tarjeta de crédito y transferencia crean pedidos reales dentro de la demo, pero no se contacta con ningún servicio externo ni se cobra nada.
 4. **Mismo aspecto.** Se reutilizan sin cambios el CSS y los iconos originales de `store/static/store/`, y las plantillas de Django se han portado una a una.
@@ -48,6 +48,7 @@ web/                     # demo estática (lo que se publica)
 ├── index.html
 ├── css/demo.css         # estilos propios de la demo (aviso, pasarela simulada, admin)
 ├── data/store.json      # catálogo exportado de db.sqlite3
+├── media/               # imágenes de producto convertidas a WebP
 └── js/
     ├── backend.js       # backend de Django simulado (views.py + modelos)
     ├── main.js          # router con hash (urls.py)
@@ -56,7 +57,7 @@ web/                     # demo estática (lo que se publica)
     ├── messages.js      # equivalente a django.contrib.messages
     └── views/           # plantillas portadas y su JavaScript
 tools/
-├── export_data.py       # db.sqlite3 -> web/data/store.json (necesita Django)
+├── export_data.py       # db.sqlite3 -> web/data/store.json + imágenes WebP (necesita Django y Pillow)
 └── build_site.py        # genera dist/ (solo biblioteca estándar)
 .github/workflows/deploy-demo.yml
 ```
