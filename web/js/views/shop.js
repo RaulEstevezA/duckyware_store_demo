@@ -108,7 +108,7 @@ export function category(ctx) {
                             <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                                 <div class="card">
                                     <a href="${productUrl(product)}">
-                                        <img src="${backend.getImage(product)}" alt="${product.name}" class="card-img-top">
+                                        <img src="${backend.getImage(product)}" alt="${product.name}" class="card-img-top" loading="lazy">
                                     </a>
                                     <div class="card-body">
                                         <h5 class="card-title">${product.name}</h5>
@@ -159,7 +159,7 @@ export function productView(ctx) {
                             <button class="product-view-carousel-button product-view-prev-button" aria-label="Previous images">&lt;</button>
                             <div class="product-view-carousel">
                                 <div class="product-view-thumbnail-container">
-                                    ${images.map(src => html`<img src="${src}" alt="Extra image for ${product.name}" class="product-view-thumbnail">`)}
+                                    ${images.map(src => html`<img src="${src}" alt="Extra image for ${product.name}" class="product-view-thumbnail" loading="lazy">`)}
                                 </div>
                             </div>
                             <button class="product-view-carousel-button product-view-next-button" aria-label="Next images">&gt;</button>
@@ -302,7 +302,7 @@ export function search(ctx) {
                         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                             <div class="card">
                                 <a href="${productUrl(product)}">
-                                    <img src="${backend.getImage(product)}" alt="${product.title}" class="card-img-top">
+                                    <img src="${backend.getImage(product)}" alt="${product.title}" class="card-img-top" loading="lazy">
                                 </a>
                                 <div class="card-body">
                                     <h5 class="card-title">${product.title}</h5>
@@ -340,7 +340,7 @@ export function wishlist(ctx) {
                         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
                             <div class="card">
                                 <a href="${productUrl(product)}">
-                                    <img src="${backend.getImage(product)}" alt="${product.name}" class="card-img-top">
+                                    <img src="${backend.getImage(product)}" alt="${product.name}" class="card-img-top" loading="lazy">
                                 </a>
                                 <div class="card-body">
                                     <h5 class="card-title">${product.name}</h5>
