@@ -74,10 +74,6 @@ Then open `http://localhost:8000`. If the database changes, regenerate the catal
 python tools/export_data.py
 ```
 
-### Deployment
-
-Every push to `main` that changes the demo runs `.github/workflows/deploy-demo.yml`, which builds `dist/` and copies it to `demos/Duckyware_Store/` in the [RaulEstevezA.github.io](https://github.com/RaulEstevezA/RaulEstevezA.github.io) repository. It needs the Actions secret `PORTFOLIO_DEPLOY_TOKEN`: a token with *Contents: Read and write* permission on that repository.
-
 ## Overview
 
 DuckyWare is a Django-based e-commerce web application focused on computer hardware and peripherals. The project was built as the final capstone for CS50W, with the goal of creating a more realistic online store than the course's earlier auction-style commerce project.
