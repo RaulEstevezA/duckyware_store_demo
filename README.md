@@ -13,8 +13,8 @@
 
 **Author:** Raul Estevez  
 **GitHub:** [RaulEstevezA](https://github.com/RaulEstevezA)  
-**LinkedIn:** [Raul Estevez](https://www.linkedin.com/in/raul-estevez-abella-9a2a1687/)  
-**Contact:** [r.estevezbella@gmail.com](mailto:r.estevezbella@gmail.com)  
+**LinkedIn:** [Raul Estevez](https://www.linkedin.com/in/raulesteveza/)  
+**Contact:** [contact.raulesteveza@gmail.com](mailto:contact.raulesteveza@gmail.com)  
 **Demo video:** [YouTube](https://youtu.be/ckqKTbNd3lc)
 
 ## Web Demo (GitHub Pages)
