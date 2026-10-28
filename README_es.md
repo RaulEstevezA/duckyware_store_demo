@@ -1,6 +1,6 @@
 # CAPSTONE - DuckyWare
 
-**Versión en inglés:** [README.md](README.md)
+- 🇬🇧 **English:** [Full documentation](./README.md)
 
 > [!IMPORTANT]
 > **Este es el repositorio de la demo para GitHub Pages de DuckyWare.**
